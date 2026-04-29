@@ -1,0 +1,359 @@
+// Internationalization (TR / EN / RU) for Paparazzi Fashion site
+const translations = {
+  en: {
+    "meta.title": "Paparazzi Fashion — Wholesale Women's Clothing | Istanbul, Turkey",
+    "meta.description": "Paparazzi Fashion — official wholesale supplier of women's clothing. Dresses, coats, tracksuits. Worldwide shipping from Istanbul Laleli. WhatsApp +90 539 390 99 58.",
+    "topbar.shipping": "🌍 Worldwide shipping from Istanbul, Turkey",
+    "nav.about": "About",
+    "nav.catalog": "Catalog",
+    "nav.wholesale": "Wholesale",
+    "nav.gallery": "Gallery",
+    "nav.contact": "Contact",
+    "nav.cta": "Order on WhatsApp",
+    "hero.badge": "Official Wholesale Supplier · Since 2017",
+    "hero.title": "Premium Women's Fashion <em>Worldwide</em>",
+    "hero.subtitle": "Designed in Poland 🇵🇱 · Manufactured with European quality · Shipped from Istanbul to 80+ countries.",
+    "hero.stats.followers": "Followers",
+    "hero.stats.orders": "B2B Orders",
+    "hero.stats.countries": "Countries",
+    "hero.cta.whatsapp": "Get Catalog on WhatsApp",
+    "hero.cta.learn": "Learn More",
+    "hero.float.title": "Worldwide Shipping",
+    "hero.float.subtitle": "DHL, UPS, EMS",
+    "hero.float2.title": "Verified Wholesale",
+    "hero.float2.subtitle": "Official Brand Partner",
+    "trust.official": "Official Brand",
+    "trust.global": "Global Shipping",
+    "trust.quality": "European Quality",
+    "trust.b2b": "B2B Wholesale",
+    "trust.support": "24/7 Support",
+    "about.tag": "About Paparazzi Fashion",
+    "about.title": "Polish Design <em>·</em> Turkish Hub <em>·</em> Worldwide Reach",
+    "about.p1": "Paparazzi Fashion is a premium women's clothing brand designed in Poland with strict European quality standards. Our Istanbul wholesale division ships authentic Paparazzi Fashion collections to boutiques, retailers, and resellers across 80+ countries.",
+    "about.p2": "We work directly with the official Polish manufacturer — every garment is genuine, with original tags. No knock-offs, no copies. Just authentic European-quality fashion at wholesale prices.",
+    "about.list.1": "Direct partnership with paparazzifashion.pl (Poland)",
+    "about.list.2": "28,000+ followers on Instagram @paparazzifashion.tr",
+    "about.list.3": "7+ years on the Turkish wholesale market",
+    "about.list.4": "Express worldwide shipping (3–7 days)",
+    "catalog.tag": "Our Collections",
+    "catalog.title": "Wholesale <em>Catalog</em>",
+    "catalog.subtitle": "Genuine Paparazzi Fashion. Click any item to order on WhatsApp by code.",
+    "catalog.filter.all": "All",
+    "catalog.filter.set": "Sets",
+    "catalog.filter.dress": "Dresses",
+    "catalog.filter.shirt": "Shirts",
+    "catalog.filter.tshirt": "T-shirts",
+    "catalog.filter.tunic": "Tunics",
+    "catalog.filter.jacket": "Jackets",
+    "catalog.filter.cardigan": "Cardigans",
+    "cat.set": "SET",
+    "cat.dress": "DRESS",
+    "cat.shirt": "SHIRT",
+    "cat.tshirt": "T-SHIRT",
+    "cat.tunic": "TUNIC",
+    "cat.jacket": "JACKET",
+    "cat.cardigan": "CARDIGAN",
+    "cat.set.name": "Set",
+    "cat.dress.name": "Dress",
+    "cat.shirt.name": "Shirt",
+    "cat.tshirt.name": "T-shirt",
+    "cat.tunic.name": "Tunic",
+    "cat.jacket.name": "Jacket",
+    "cat.cardigan.name": "Cardigan",
+    "catalog.cta": "View on WhatsApp",
+    "wholesale.tag": "For B2B Buyers",
+    "wholesale.title": "Why Choose <em>Paparazzi Fashion Wholesale</em>?",
+    "ws.1.title": "Low Minimum Order",
+    "ws.1.text": "Start with as little as 10 pieces per model. Perfect for small boutiques.",
+    "ws.2.title": "Fast Worldwide Delivery",
+    "ws.2.text": "DHL, UPS, EMS, FedEx. Express shipping in 3–7 business days.",
+    "ws.3.title": "Volume Discounts",
+    "ws.3.text": "The more you order, the better the price. Up to 40% off retail.",
+    "ws.4.title": "All Currencies Accepted",
+    "ws.4.text": "USD, EUR, RUB, TRY, GBP. Bank transfer, Western Union, USDT.",
+    "ws.5.title": "Personal Manager",
+    "ws.5.text": "Dedicated account manager via WhatsApp / Telegram in your language.",
+    "ws.6.title": "Authentic Brand",
+    "ws.6.text": "Genuine Paparazzi Fashion (Poland). Original tags. Quality guarantee.",
+    "gallery.tag": "Latest Collection",
+    "gallery.title": "Photo <em>Gallery</em>",
+    "gallery.subtitle": "Follow @paparazzifashion.tr on Instagram for daily new arrivals.",
+    "gallery.followIg": "Follow on Instagram (28K)",
+    "contact.tag": "Get In Touch",
+    "contact.title": "Ready to <em>Order?</em>",
+    "contact.subtitle": "Choose any channel — we respond within 30 minutes during business hours.",
+    "contact.whatsapp.note": "Recommended · Fastest reply",
+    "contact.telegram.note": "Send a message",
+    "contact.instagram.note": "28K followers",
+    "contact.max.note": "For Russia / CIS",
+    "contact.address.title": "Showroom Address",
+    "contact.address.map": "Open in Google Maps →",
+    "contact.hours.title": "Business Hours",
+    "contact.hours.weekday": "Mon–Sat: 09:00 – 19:00 (GMT+3)",
+    "contact.hours.sunday": "Sunday: closed",
+    "footer.tagline": "Official wholesale supplier of women's clothing. Designed in Poland, shipped from Istanbul to the world.",
+    "footer.col1.title": "Navigation",
+    "footer.col2.title": "Contact",
+    "footer.rights": "All rights reserved.",
+    "footer.disclaimer": "Official wholesale partner of paparazzifashion.pl (Poland)."
+  },
+  tr: {
+    "meta.title": "Paparazzi Fashion — Toptan Kadın Giyim | İstanbul, Türkiye",
+    "meta.description": "Paparazzi Fashion — toptan kadın giyim resmi tedarikçisi. Elbise, palto, eşofman. İstanbul Laleli'den dünya geneli kargo. WhatsApp +90 539 390 99 58.",
+    "topbar.shipping": "🌍 İstanbul'dan dünya geneli kargo",
+    "nav.about": "Hakkımızda",
+    "nav.catalog": "Katalog",
+    "nav.wholesale": "Toptan",
+    "nav.gallery": "Galeri",
+    "nav.contact": "İletişim",
+    "nav.cta": "WhatsApp ile Sipariş",
+    "hero.badge": "Resmi Toptan Tedarikçi · 2017'den Beri",
+    "hero.title": "Premium Kadın Modası <em>Dünya Çapında</em>",
+    "hero.subtitle": "Polonya 🇵🇱 tasarımı · Avrupa kalitesinde üretim · İstanbul'dan 80+ ülkeye kargo.",
+    "hero.stats.followers": "Takipçi",
+    "hero.stats.orders": "B2B Sipariş",
+    "hero.stats.countries": "Ülke",
+    "hero.cta.whatsapp": "WhatsApp'tan Katalog Al",
+    "hero.cta.learn": "Daha Fazla",
+    "hero.float.title": "Dünya Geneli Kargo",
+    "hero.float.subtitle": "DHL, UPS, EMS",
+    "hero.float2.title": "Onaylı Toptan",
+    "hero.float2.subtitle": "Resmi Marka Partneri",
+    "trust.official": "Resmi Marka",
+    "trust.global": "Global Kargo",
+    "trust.quality": "Avrupa Kalitesi",
+    "trust.b2b": "B2B Toptan",
+    "trust.support": "7/24 Destek",
+    "about.tag": "Paparazzi Fashion Hakkında",
+    "about.title": "Polonya Tasarımı <em>·</em> Türk Merkezi <em>·</em> Dünya Çapında",
+    "about.p1": "Paparazzi Fashion, sıkı Avrupa kalite standartlarıyla Polonya'da tasarlanan premium bir kadın giyim markasıdır. İstanbul toptan satış birimimiz, orijinal Paparazzi Fashion koleksiyonlarını 80+ ülkedeki butiklere, perakendecilere ve bayilere sevk eder.",
+    "about.p2": "Resmi Polonyalı üretici ile doğrudan çalışıyoruz — her ürün orijinal, etiketleri ile birlikte. Taklit yok, kopya yok. Sadece toptan fiyatlarla otantik Avrupa kalitesinde moda.",
+    "about.list.1": "paparazzifashion.pl (Polonya) ile doğrudan ortaklık",
+    "about.list.2": "Instagram @paparazzifashion.tr — 28.000+ takipçi",
+    "about.list.3": "Türk toptan pazarında 7+ yıl",
+    "about.list.4": "Hızlı dünya geneli kargo (3–7 gün)",
+    "catalog.tag": "Koleksiyonlarımız",
+    "catalog.title": "Toptan <em>Katalog</em>",
+    "catalog.subtitle": "Orijinal Paparazzi Fashion. Sipariş için ürüne tıklayın, koduyla WhatsApp'tan yazın.",
+    "catalog.filter.all": "Tümü",
+    "catalog.filter.set": "Takımlar",
+    "catalog.filter.dress": "Elbiseler",
+    "catalog.filter.shirt": "Gömlekler",
+    "catalog.filter.tshirt": "T-shirt",
+    "catalog.filter.tunic": "Tunikler",
+    "catalog.filter.jacket": "Ceketler",
+    "catalog.filter.cardigan": "Hırkalar",
+    "cat.set": "TAKIM",
+    "cat.dress": "ELBİSE",
+    "cat.shirt": "GÖMLEK",
+    "cat.tshirt": "T-SHIRT",
+    "cat.tunic": "TUNİK",
+    "cat.jacket": "CEKET",
+    "cat.cardigan": "HIRKA",
+    "cat.set.name": "Takım",
+    "cat.dress.name": "Elbise",
+    "cat.shirt.name": "Gömlek",
+    "cat.tshirt.name": "T-shirt",
+    "cat.tunic.name": "Tunik",
+    "cat.jacket.name": "Ceket",
+    "cat.cardigan.name": "Hırka",
+    "catalog.cta": "WhatsApp'ta Gör",
+    "wholesale.tag": "B2B Alıcılar İçin",
+    "wholesale.title": "Neden <em>Paparazzi Fashion Toptan</em>?",
+    "ws.1.title": "Düşük Minimum Sipariş",
+    "ws.1.text": "Model başına sadece 10 adetten başlayın. Küçük butikler için ideal.",
+    "ws.2.title": "Hızlı Dünya Geneli Kargo",
+    "ws.2.text": "DHL, UPS, EMS, FedEx. Ekspres kargo 3–7 iş günü.",
+    "ws.3.title": "Hacim İndirimleri",
+    "ws.3.text": "Ne kadar çok sipariş, o kadar iyi fiyat. Perakendeden %40'a varan indirim.",
+    "ws.4.title": "Tüm Para Birimleri Kabul",
+    "ws.4.text": "USD, EUR, RUB, TRY, GBP. Banka havalesi, Western Union, USDT.",
+    "ws.5.title": "Kişisel Yönetici",
+    "ws.5.text": "Dilinizde WhatsApp / Telegram üzerinden özel hesap yöneticisi.",
+    "ws.6.title": "Orijinal Marka",
+    "ws.6.text": "Orijinal Paparazzi Fashion (Polonya). Orijinal etiketler. Kalite garantisi.",
+    "gallery.tag": "Son Koleksiyon",
+    "gallery.title": "Foto <em>Galerisi</em>",
+    "gallery.subtitle": "Günlük yeni ürünler için Instagram'da @paparazzifashion.tr takip edin.",
+    "gallery.followIg": "Instagram'da Takip Et (28B)",
+    "contact.tag": "İletişime Geçin",
+    "contact.title": "Sipariş Vermeye <em>Hazır mısınız?</em>",
+    "contact.subtitle": "Herhangi bir kanalı seçin — iş saatlerinde 30 dakika içinde yanıt veriyoruz.",
+    "contact.whatsapp.note": "Önerilen · En hızlı yanıt",
+    "contact.telegram.note": "Mesaj gönder",
+    "contact.instagram.note": "28B takipçi",
+    "contact.max.note": "Rusya / BDT için",
+    "contact.address.title": "Showroom Adresi",
+    "contact.address.map": "Google Haritalar'da Aç →",
+    "contact.hours.title": "Çalışma Saatleri",
+    "contact.hours.weekday": "Pzt–Cmt: 09:00 – 19:00 (GMT+3)",
+    "contact.hours.sunday": "Pazar: kapalı",
+    "footer.tagline": "Resmi toptan kadın giyim tedarikçisi. Polonya tasarımı, İstanbul'dan dünyaya kargo.",
+    "footer.col1.title": "Menü",
+    "footer.col2.title": "İletişim",
+    "footer.rights": "Tüm hakları saklıdır.",
+    "footer.disclaimer": "paparazzifashion.pl (Polonya) resmi toptan partneri."
+  },
+  ru: {
+    "meta.title": "Paparazzi Fashion — Женская одежда оптом | Стамбул, Турция",
+    "meta.description": "Paparazzi Fashion — официальный поставщик женской одежды оптом. Платья, пальто, спортивные костюмы. Доставка по всему миру из Стамбула Лалели. WhatsApp +90 539 390 99 58.",
+    "topbar.shipping": "🌍 Доставка по всему миру из Стамбула",
+    "nav.about": "О нас",
+    "nav.catalog": "Каталог",
+    "nav.wholesale": "Опт",
+    "nav.gallery": "Галерея",
+    "nav.contact": "Контакты",
+    "nav.cta": "Заказать в WhatsApp",
+    "hero.badge": "Официальный поставщик опта · С 2017 года",
+    "hero.title": "Премиум женская мода <em>по всему миру</em>",
+    "hero.subtitle": "Дизайн Польши 🇵🇱 · Европейское качество · Доставка из Стамбула в 80+ стран.",
+    "hero.stats.followers": "Подписчиков",
+    "hero.stats.orders": "B2B заказов",
+    "hero.stats.countries": "Стран",
+    "hero.cta.whatsapp": "Получить каталог в WhatsApp",
+    "hero.cta.learn": "Подробнее",
+    "hero.float.title": "Доставка по всему миру",
+    "hero.float.subtitle": "DHL, UPS, EMS",
+    "hero.float2.title": "Проверенный опт",
+    "hero.float2.subtitle": "Официальный партнёр",
+    "trust.official": "Официальный бренд",
+    "trust.global": "Доставка везде",
+    "trust.quality": "Европейское качество",
+    "trust.b2b": "B2B опт",
+    "trust.support": "Поддержка 24/7",
+    "about.tag": "О Paparazzi Fashion",
+    "about.title": "Польский дизайн <em>·</em> Турецкий хаб <em>·</em> Мировой охват",
+    "about.p1": "Paparazzi Fashion — премиальный бренд женской одежды, разработанный в Польше по строгим европейским стандартам качества. Наш стамбульский оптовый отдел отправляет оригинальные коллекции Paparazzi Fashion в бутики, магазины и реселлерам в 80+ стран.",
+    "about.p2": "Мы работаем напрямую с официальным польским производителем — каждое изделие оригинальное, с фирменными бирками. Никаких подделок, никаких копий. Только оригинальная европейская мода по оптовым ценам.",
+    "about.list.1": "Прямое партнёрство с paparazzifashion.pl (Польша)",
+    "about.list.2": "28 000+ подписчиков в Instagram @paparazzifashion.tr",
+    "about.list.3": "7+ лет на турецком оптовом рынке",
+    "about.list.4": "Экспресс доставка по всему миру (3–7 дней)",
+    "catalog.tag": "Наши коллекции",
+    "catalog.title": "Оптовый <em>каталог</em>",
+    "catalog.subtitle": "Оригинальная Paparazzi Fashion. Нажмите на товар — закажите по артикулу в WhatsApp.",
+    "catalog.filter.all": "Все",
+    "catalog.filter.set": "Костюмы",
+    "catalog.filter.dress": "Платья",
+    "catalog.filter.shirt": "Рубашки",
+    "catalog.filter.tshirt": "Футболки",
+    "catalog.filter.tunic": "Туники",
+    "catalog.filter.jacket": "Куртки",
+    "catalog.filter.cardigan": "Кардиганы",
+    "cat.set": "КОСТЮМ",
+    "cat.dress": "ПЛАТЬЕ",
+    "cat.shirt": "РУБАШКА",
+    "cat.tshirt": "ФУТБОЛКА",
+    "cat.tunic": "ТУНИКА",
+    "cat.jacket": "КУРТКА",
+    "cat.cardigan": "КАРДИГАН",
+    "cat.set.name": "Костюм",
+    "cat.dress.name": "Платье",
+    "cat.shirt.name": "Рубашка",
+    "cat.tshirt.name": "Футболка",
+    "cat.tunic.name": "Туника",
+    "cat.jacket.name": "Куртка",
+    "cat.cardigan.name": "Кардиган",
+    "catalog.cta": "Смотреть в WhatsApp",
+    "wholesale.tag": "Для B2B покупателей",
+    "wholesale.title": "Почему <em>Paparazzi Fashion опт</em>?",
+    "ws.1.title": "Низкий минимальный заказ",
+    "ws.1.text": "Начните всего с 10 единиц на модель. Идеально для маленьких бутиков.",
+    "ws.2.title": "Быстрая доставка по миру",
+    "ws.2.text": "DHL, UPS, EMS, FedEx. Экспресс за 3–7 рабочих дней.",
+    "ws.3.title": "Скидки за объём",
+    "ws.3.text": "Чем больше заказ, тем лучше цена. До 40% от розничной стоимости.",
+    "ws.4.title": "Все валюты принимаются",
+    "ws.4.text": "USD, EUR, RUB, TRY, GBP. Банковский перевод, Western Union, USDT.",
+    "ws.5.title": "Персональный менеджер",
+    "ws.5.text": "Личный менеджер в WhatsApp / Telegram на вашем языке.",
+    "ws.6.title": "Оригинальный бренд",
+    "ws.6.text": "Подлинный Paparazzi Fashion (Польша). Оригинальные бирки. Гарантия качества.",
+    "gallery.tag": "Последняя коллекция",
+    "gallery.title": "Фото <em>галерея</em>",
+    "gallery.subtitle": "Подписывайтесь на @paparazzifashion.tr в Instagram — новинки каждый день.",
+    "gallery.followIg": "Подписаться в Instagram (28K)",
+    "contact.tag": "Связаться с нами",
+    "contact.title": "Готовы <em>сделать заказ?</em>",
+    "contact.subtitle": "Выберите любой канал — отвечаем в течение 30 минут в рабочее время.",
+    "contact.whatsapp.note": "Рекомендуем · Самый быстрый ответ",
+    "contact.telegram.note": "Напишите сообщение",
+    "contact.instagram.note": "28K подписчиков",
+    "contact.max.note": "Для России / СНГ",
+    "contact.address.title": "Адрес шоурума",
+    "contact.address.map": "Открыть в Google Maps →",
+    "contact.hours.title": "Часы работы",
+    "contact.hours.weekday": "Пн–Сб: 09:00 – 19:00 (GMT+3)",
+    "contact.hours.sunday": "Воскресенье: выходной",
+    "footer.tagline": "Официальный поставщик женской одежды оптом. Дизайн Польша, доставка из Стамбула по всему миру.",
+    "footer.col1.title": "Меню",
+    "footer.col2.title": "Контакты",
+    "footer.rights": "Все права защищены.",
+    "footer.disclaimer": "Официальный оптовый партнёр paparazzifashion.pl (Польша)."
+  }
+};
+
+function setLanguage(lang) {
+  if (!translations[lang]) lang = 'en';
+  const t = translations[lang];
+
+  document.documentElement.lang = lang;
+  document.documentElement.setAttribute('data-lang', lang);
+
+  // Text content
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (t[key] !== undefined) {
+      el.innerHTML = t[key];
+    }
+  });
+
+  // Attributes (data-i18n-attr="content:meta.description")
+  document.querySelectorAll('[data-i18n-attr]').forEach(el => {
+    const pairs = el.getAttribute('data-i18n-attr').split(';');
+    pairs.forEach(pair => {
+      const [attr, key] = pair.split(':').map(s => s.trim());
+      if (t[key] !== undefined) {
+        el.setAttribute(attr, t[key]);
+      }
+    });
+  });
+
+  // Title
+  if (t['meta.title']) document.title = t['meta.title'];
+
+  // Active button
+  document.querySelectorAll('[data-set-lang]').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+  });
+
+  try { localStorage.setItem('pf_lang', lang); } catch (e) {}
+
+  // Tell main.js to refresh Lucide icons
+  window.dispatchEvent(new CustomEvent('pf:lang-changed', { detail: { lang } }));
+}
+
+window.setLanguage = setLanguage;
+window.pfTranslations = translations;
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Determine initial language: localStorage > browser > default
+  let initial = 'ru';
+  try {
+    const saved = localStorage.getItem('pf_lang');
+    if (saved && translations[saved]) {
+      initial = saved;
+    } else {
+      const browserLang = (navigator.language || 'en').slice(0, 2);
+      if (translations[browserLang]) initial = browserLang;
+    }
+  } catch (e) {}
+
+  setLanguage(initial);
+
+  document.querySelectorAll('[data-set-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      setLanguage(btn.getAttribute('data-set-lang'));
+    });
+  });
+});

@@ -1,0 +1,18 @@
+{
+  "name": "paparazzi-fashion-site",
+  "version": "1.0.0",
+  "description": "Static showcase + B2B WhatsApp ordering for Paparazzi Fashion (auto-synced from paparazzifashion.com.tr).",
+  "private": true,
+  "scripts": {
+    "sync": "node tools/scrape.js",
+    "og-cover": "node tools/generate_og_cover.js",
+    "serve": "npx --yes http-server -p 8765 -c-1 ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
+

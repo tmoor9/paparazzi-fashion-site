@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+.netlify/
+.cache/
+dist/
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.*
+
+# Dev-only (scrape scripts, screenshots, raw API dumps) — not for production
+test/
+windsurf_deployment.yaml
+package-lock.json
