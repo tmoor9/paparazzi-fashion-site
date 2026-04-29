@@ -1,0 +1,52 @@
+name: Sync from paparazzifashion.com.tr
+
+on:
+  schedule:
+    # Run every day at 03:00 UTC (06:00 Istanbul time, before peak hours)
+    - cron: '0 3 * * *'
+  workflow_dispatch:  # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write  # so the action can commit + push the new products.json + photos
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Needed so the GITHUB_TOKEN push triggers the Netlify deploy hook
+          # (Netlify auto-deploys on every push to the production branch).
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scrape
+        run: node tools/scrape.js
+
+      - name: Generate fresh og-cover from new catalogue
+        run: node tools/generate_og_cover.js
+
+      - name: Commit & push if products.json or images changed
+        run: |
+          git config user.name  "paparazzi-sync-bot"
+          git config user.email "actions@github.com"
+          git add assets/products.json assets/img/products assets/img/og-cover.jpg
+          if git diff --cached --quiet; then
+            echo "No catalogue changes detected — nothing to commit."
+          else
+            git commit -m "chore: daily sync from paparazzifashion.com.tr [skip ci]"
+            git push
+          fi
