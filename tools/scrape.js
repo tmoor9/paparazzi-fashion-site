@@ -17,12 +17,51 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(PROJECT_ROOT, 'assets', 'img', 'products');
 const PRODUCTS_JSON = path.join(PROJECT_ROOT, 'assets', 'products.json');
 
+// Tunables for politeness + resilience.
+const DELAY_MIN_MS = 800;       // minimum wait between page navigations
+const DELAY_MAX_MS = 2200;      // maximum (random in this range — looks human)
+const MAX_RETRIES = 3;          // per-request retry count
+const INITIAL_BACKOFF_MS = 4000;
+const NAV_TIMEOUT_MS = 35000;
+
+// Pool of realistic User-Agent strings; one is picked per session.
+const USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+];
+
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-function download(url, dest) {
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+function randomDelay() {
+  return DELAY_MIN_MS + Math.floor(Math.random() * (DELAY_MAX_MS - DELAY_MIN_MS));
+}
+
+async function withRetries(fn, label) {
+  let lastErr;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try { return await fn(); }
+    catch (e) {
+      lastErr = e;
+      const wait = INITIAL_BACKOFF_MS * Math.pow(2, attempt - 1)
+                 + Math.floor(Math.random() * 1500); // jitter
+      console.log(`    retry ${attempt}/${MAX_RETRIES} for ${label}: ${e.message} (wait ${wait}ms)`);
+      if (attempt < MAX_RETRIES) await sleep(wait);
+    }
+  }
+  throw lastErr;
+}
+
+function download(url, dest, ua) {
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
-    https.get(url, (resp) => {
+    const req = https.get(url, {
+      headers: { 'User-Agent': ua, 'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8', 'Referer': ROOT + '/' },
+      timeout: 30000,
+    }, (resp) => {
       if (resp.statusCode !== 200) {
         file.close(); try { fs.unlinkSync(dest); } catch (_) {}
         reject(new Error('HTTP ' + resp.statusCode));
@@ -30,8 +69,14 @@ function download(url, dest) {
       }
       resp.pipe(file);
       file.on('finish', () => file.close(() => resolve()));
-    }).on('error', (err) => { try { fs.unlinkSync(dest); } catch (_) {} reject(err); });
+    });
+    req.on('error', (err) => { try { fs.unlinkSync(dest); } catch (_) {} reject(err); });
+    req.on('timeout', () => { req.destroy(new Error('timeout')); });
   });
+}
+
+async function downloadWithRetries(url, dest, ua) {
+  return withRetries(() => download(url, dest, ua), `download ${path.basename(dest)}`);
 }
 
 // Strip WooCommerce size suffix from image URL: ...-768x1152.jpeg -> ...jpeg
@@ -46,11 +91,14 @@ async function collectShopUrls(page) {
   while (pageNum <= 50) {
     const target = pageNum === 1 ? SHOP : `${SHOP}page/${pageNum}/`;
     try {
-      const resp = await page.goto(target, { waitUntil: 'networkidle', timeout: 30000 });
-      if (!resp || resp.status() === 404) break;
+      await withRetries(
+        () => page.goto(target, { waitUntil: 'networkidle', timeout: NAV_TIMEOUT_MS }),
+        `shop page ${pageNum}`
+      );
     } catch (e) {
-      console.log(`  page ${pageNum} failed: ${e.message}`); break;
+      console.log(`  page ${pageNum} failed after retries: ${e.message}`); break;
     }
+    if (page.url() && /404|not[-_]?found/i.test(await page.title().catch(() => ''))) break;
     const found = await page.$$eval(
       'a[href*="/product/"]',
       links => [...new Set(links.map(a => a.href).filter(h => /\/product\/[a-z0-9-]+\/$/i.test(h)))]
@@ -60,6 +108,7 @@ async function collectShopUrls(page) {
     console.log(`  shop page ${pageNum}: +${added} products (total ${all.size})`);
     if (added === 0) break;
     pageNum++;
+    await sleep(randomDelay());
   }
   return [...all];
 }
@@ -67,9 +116,21 @@ async function collectShopUrls(page) {
 (async () => {
   console.log('=== Paparazzi Fashion sync ===');
   const t0 = Date.now();
+  const ua = USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+  console.log('Session UA:', ua.replace(/^Mozilla.*?\) /, '').slice(0, 60));
   const browser = await chromium.launch({ headless: true });
   const ctx = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36'
+    userAgent: ua,
+    locale: 'en-US',
+    timezoneId: 'Europe/Istanbul',
+    viewport: { width: 1366, height: 800 },
+    extraHTTPHeaders: {
+      'Accept-Language': 'en-US,en;q=0.9,tr;q=0.7',
+    },
+  });
+  // Hide automation fingerprint (webdriver flag)
+  await ctx.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
   });
   const page = await ctx.newPage();
 
@@ -84,7 +145,10 @@ async function collectShopUrls(page) {
     const url = productUrls[i];
     process.stdout.write(`[${i + 1}/${productUrls.length}] ${url.replace(ROOT, '')} ... `);
     try {
-      await page.goto(url, { waitUntil: 'networkidle', timeout: 25000 });
+      await withRetries(
+        () => page.goto(url, { waitUntil: 'networkidle', timeout: NAV_TIMEOUT_MS }),
+        `product ${url.replace(ROOT, '')}`
+      );
 
       const heading = await page.locator('h1.product_title, h1').first().textContent().catch(() => '');
       const productName = heading.replace(/Paparazzi Fashion.*/i, '').trim();
@@ -132,7 +196,7 @@ async function collectShopUrls(page) {
         const localPath = path.join(OUT_DIR, fileName);
         if (!fs.existsSync(localPath)) {
           try {
-            await download(imgUrl, localPath);
+            await downloadWithRetries(imgUrl, localPath, ua);
             downloaded++;
           } catch (e) {
             console.log(`\n    !! download failed ${fileName}: ${e.message}`);
@@ -153,6 +217,8 @@ async function collectShopUrls(page) {
     } catch (e) {
       console.log(`FAIL: ${e.message}`); failed++;
     }
+    // Be polite — random delay before next product
+    await sleep(randomDelay());
   }
 
   // Sort deterministically so JSON only changes when content changes.
