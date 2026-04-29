@@ -18,8 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          # Needed so the GITHUB_TOKEN push triggers the Netlify deploy hook
-          # (Netlify auto-deploys on every push to the production branch).
+          # Push triggers automatic GitHub Pages rebuild on main branch.
           persist-credentials: true
 
       - name: Setup Node.js
