@@ -17,8 +17,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-          # Push triggers automatic GitHub Pages rebuild on main branch.
+          # Need full history so a rebase against newer remote work succeeds
+          # if other commits land while the long-running scrape is in flight.
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Setup Node.js
@@ -45,7 +46,19 @@ jobs:
           git add assets/products.json assets/img/products assets/img/og-cover.jpg
           if git diff --cached --quiet; then
             echo "No catalogue changes detected — nothing to commit."
-          else
-            git commit -m "chore: daily sync from paparazzifashion.com.tr [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: daily sync from paparazzifashion.com.tr [skip ci]"
+          # Other commits may have landed during the long scrape — rebase, then
+          # push with retries to ride out transient races.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { echo "rebase failed"; exit 1; }
+            if git push origin main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected — retrying ($attempt/3)..."
+            sleep 5
+          done
+          echo "push still rejected after 3 attempts"; exit 1
