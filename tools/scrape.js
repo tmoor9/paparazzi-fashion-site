@@ -12,7 +12,20 @@ const path = require('path');
 const https = require('https');
 
 const ROOT = 'https://paparazzifashion.com.tr';
-const SHOP = ROOT + '/index.php/shop/';
+// /shop/ is a curated "featured" page (15 items). The real, complete catalogue
+// lives at /shop-2/ + the WooCommerce category pages. We crawl all of them and
+// dedupe to capture every product on the origin.
+const SHOP_SOURCES = [
+  ROOT + '/index.php/shop-2/',
+  ROOT + '/index.php/shop/',
+  ROOT + '/index.php/product-category/sets/',
+  ROOT + '/index.php/product-category/dresses/',
+  ROOT + '/index.php/product-category/coat/',
+  ROOT + '/index.php/product-category/tops/',
+  ROOT + '/index.php/product-category/cardigan/',
+  ROOT + '/index.php/product-category/accessories/',
+  ROOT + '/index.php/product-category/sale/',
+];
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(PROJECT_ROOT, 'assets', 'img', 'products');
 const PRODUCTS_JSON = path.join(PROJECT_ROOT, 'assets', 'products.json');
@@ -84,31 +97,45 @@ function fullSize(url) {
   return url.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1');
 }
 
-async function collectShopUrls(page) {
-  // Walk paginated shop pages until we stop discovering new product URLs.
-  const all = new Set();
+async function collectFromSource(page, base, all) {
+  // Walk paginated pages of a single source (shop or category) until empty.
+  const before = all.size;
   let pageNum = 1;
   while (pageNum <= 50) {
-    const target = pageNum === 1 ? SHOP : `${SHOP}page/${pageNum}/`;
+    const target = pageNum === 1 ? base : `${base}page/${pageNum}/`;
     try {
-      await withRetries(
+      const resp = await withRetries(
         () => page.goto(target, { waitUntil: 'networkidle', timeout: NAV_TIMEOUT_MS }),
-        `shop page ${pageNum}`
+        `${base.replace(ROOT, '')} page ${pageNum}`
       );
+      if (!resp || !resp.ok()) break;
     } catch (e) {
-      console.log(`  page ${pageNum} failed after retries: ${e.message}`); break;
+      console.log(`    page ${pageNum} failed: ${e.message}`); break;
     }
-    if (page.url() && /404|not[-_]?found/i.test(await page.title().catch(() => ''))) break;
+    if (/404|not[-_]?found/i.test(await page.title().catch(() => ''))) break;
     const found = await page.$$eval(
       'a[href*="/product/"]',
       links => [...new Set(links.map(a => a.href).filter(h => /\/product\/[a-z0-9-]+\/$/i.test(h)))]
     );
-    let added = 0;
-    for (const u of found) { if (!all.has(u)) { all.add(u); added++; } }
-    console.log(`  shop page ${pageNum}: +${added} products (total ${all.size})`);
-    if (added === 0) break;
+    let addedThisPage = 0;
+    for (const u of found) {
+      if (!all.has(u)) { all.add(u); addedThisPage++; }
+    }
+    if (found.length === 0 && pageNum > 1) break;
+    if (found.length === 0 && pageNum === 1) break;
+    if (addedThisPage === 0 && pageNum > 1) break;
     pageNum++;
     await sleep(randomDelay());
+  }
+  return all.size - before;
+}
+
+async function collectShopUrls(page) {
+  // Crawl every shop/category source, dedup across them, return union.
+  const all = new Set();
+  for (const src of SHOP_SOURCES) {
+    const added = await collectFromSource(page, src, all);
+    console.log(`  ${src.replace(ROOT, '')}  +${added}  (catalogue total ${all.size})`);
   }
   return [...all];
 }
@@ -152,11 +179,19 @@ async function collectShopUrls(page) {
 
       const heading = await page.locator('h1.product_title, h1').first().textContent().catch(() => '');
       const productName = heading.replace(/Paparazzi Fashion.*/i, '').trim();
+      // Try the known-category prefix first; fall back to 'other' so we never drop a product silently.
       const m = productName.match(/^(Set|Dress|Cardigan|Pants|Top|Coat|Blouse|Shirt|Skirt|Jacket|Sweater|Hoodie|Jumpsuit|Tracksuit|Tunic|Tshirt|T-Shirt|Skort)\s*(\d+)/i);
-      if (!m) { console.log(`SKIP (no category): "${productName}"`); continue; }
-      let category = m[1].toLowerCase();
-      if (category === 't-shirt') category = 'tshirt';
-      const code = m[2];
+      let category, code;
+      if (m) {
+        category = m[1].toLowerCase();
+        if (category === 't-shirt') category = 'tshirt';
+        code = m[2];
+      } else {
+        category = 'other';
+        const codeMatch = productName.match(/(\d{2,5})/);
+        code = codeMatch ? codeMatch[1] : '0';
+        console.log(`(uncategorised, kept as 'other'): "${productName}"`);
+      }
       const varMatch = url.match(/-(\d+)\/?$/);
       const variant = varMatch ? varMatch[1] : '1';
 
