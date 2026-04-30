@@ -55,8 +55,11 @@ a { color: inherit; }
 @media (max-width: 768px) { .pp-wrap { grid-template-columns: 1fr; gap: 24px; padding: 16px; } }
 .pp-gallery { position: relative; }
 .pp-main { position: relative; aspect-ratio: 3/4; background: #f0f0f0; border-radius: 12px; overflow: hidden; }
-.pp-photo { width: 100%; height: 100%; object-fit: cover; display: none; }
+.pp-photo { width: 100%; height: 100%; display: none; position: absolute; inset: 0; }
 .pp-photo.active { display: block; }
+.pp-photo > img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pp-thumb > picture { width: 100%; height: 100%; display: block; }
+.pp-thumb > picture > img { width: 100%; height: 100%; object-fit: cover; }
 .pp-nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,.9); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,.15); transition: background .15s; }
 .pp-nav:hover { background: #fff; }
 .pp-nav.prev { left: 12px; } .pp-nav.next { right: 12px; }
@@ -95,20 +98,35 @@ a { color: inherit; }
 <main class="pp-wrap">
   <section class="pp-gallery">
     <div class="pp-main" id="pp-main">
-      <img src="../assets/img/products/dress-3370-v1-p1.jpeg" alt="Dress 3370 photo 1" class="pp-photo active" loading="eager" decoding="async" />
-      <img src="../assets/img/products/dress-3370-v1-p2.jpeg" alt="Dress 3370 photo 2" class="pp-photo" loading="lazy" decoding="async" />
-      <img src="../assets/img/products/dress-3370-v1-p3.jpeg" alt="Dress 3370 photo 3" class="pp-photo" loading="lazy" decoding="async" />
-      <img src="../assets/img/products/dress-3370-v1-p4.jpeg" alt="Dress 3370 photo 4" class="pp-photo" loading="lazy" decoding="async" />
-      <img src="../assets/img/products/dress-3370-v1-p5.jpeg" alt="Dress 3370 photo 5" class="pp-photo" loading="lazy" decoding="async" />
+      <picture class="pp-photo active">
+        <source srcset="../assets/img/products/dress-3370-v1-p1.webp" type="image/webp" />
+        <img src="../assets/img/products/dress-3370-v1-p1.jpeg" alt="Dress 3370 photo 1" loading="eager" decoding="async" />
+      </picture>
+      <picture class="pp-photo">
+        <source srcset="../assets/img/products/dress-3370-v1-p2.webp" type="image/webp" />
+        <img src="../assets/img/products/dress-3370-v1-p2.jpeg" alt="Dress 3370 photo 2" loading="lazy" decoding="async" />
+      </picture>
+      <picture class="pp-photo">
+        <source srcset="../assets/img/products/dress-3370-v1-p3.webp" type="image/webp" />
+        <img src="../assets/img/products/dress-3370-v1-p3.jpeg" alt="Dress 3370 photo 3" loading="lazy" decoding="async" />
+      </picture>
+      <picture class="pp-photo">
+        <source srcset="../assets/img/products/dress-3370-v1-p4.webp" type="image/webp" />
+        <img src="../assets/img/products/dress-3370-v1-p4.jpeg" alt="Dress 3370 photo 4" loading="lazy" decoding="async" />
+      </picture>
+      <picture class="pp-photo">
+        <source srcset="../assets/img/products/dress-3370-v1-p5.webp" type="image/webp" />
+        <img src="../assets/img/products/dress-3370-v1-p5.jpeg" alt="Dress 3370 photo 5" loading="lazy" decoding="async" />
+      </picture>
       <button type="button" class="pp-nav prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
       <button type="button" class="pp-nav next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
     </div>
     <div class="pp-thumbs">
-        <button type="button" class="pp-thumb active" data-idx="0" aria-label="Photo 1"><img src="../assets/img/products/dress-3370-v1-p1.jpeg" alt="" loading="lazy" /></button>
-        <button type="button" class="pp-thumb" data-idx="1" aria-label="Photo 2"><img src="../assets/img/products/dress-3370-v1-p2.jpeg" alt="" loading="lazy" /></button>
-        <button type="button" class="pp-thumb" data-idx="2" aria-label="Photo 3"><img src="../assets/img/products/dress-3370-v1-p3.jpeg" alt="" loading="lazy" /></button>
-        <button type="button" class="pp-thumb" data-idx="3" aria-label="Photo 4"><img src="../assets/img/products/dress-3370-v1-p4.jpeg" alt="" loading="lazy" /></button>
-        <button type="button" class="pp-thumb" data-idx="4" aria-label="Photo 5"><img src="../assets/img/products/dress-3370-v1-p5.jpeg" alt="" loading="lazy" /></button>
+        <button type="button" class="pp-thumb active" data-idx="0" aria-label="Photo 1"><picture><source srcset="../assets/img/products/dress-3370-v1-p1.webp" type="image/webp" /><img src="../assets/img/products/dress-3370-v1-p1.jpeg" alt="" loading="lazy" /></picture></button>
+        <button type="button" class="pp-thumb" data-idx="1" aria-label="Photo 2"><picture><source srcset="../assets/img/products/dress-3370-v1-p2.webp" type="image/webp" /><img src="../assets/img/products/dress-3370-v1-p2.jpeg" alt="" loading="lazy" /></picture></button>
+        <button type="button" class="pp-thumb" data-idx="2" aria-label="Photo 3"><picture><source srcset="../assets/img/products/dress-3370-v1-p3.webp" type="image/webp" /><img src="../assets/img/products/dress-3370-v1-p3.jpeg" alt="" loading="lazy" /></picture></button>
+        <button type="button" class="pp-thumb" data-idx="3" aria-label="Photo 4"><picture><source srcset="../assets/img/products/dress-3370-v1-p4.webp" type="image/webp" /><img src="../assets/img/products/dress-3370-v1-p4.jpeg" alt="" loading="lazy" /></picture></button>
+        <button type="button" class="pp-thumb" data-idx="4" aria-label="Photo 5"><picture><source srcset="../assets/img/products/dress-3370-v1-p5.webp" type="image/webp" /><img src="../assets/img/products/dress-3370-v1-p5.jpeg" alt="" loading="lazy" /></picture></button>
     </div>
   </section>
 

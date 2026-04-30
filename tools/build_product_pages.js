@@ -128,12 +128,18 @@ function buildPage(v) {
   };
 
   // Gallery: thumbnails + main image; vanilla JS click-swap (no extra deps).
-  const photoTags = v.photos.map((ph, i) =>
-    `      <img src="../${escAttr(ph.image)}" alt="${escAttr(titleName)} photo ${i + 1}" class="pp-photo${i === 0 ? ' active' : ''}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async" />`
-  ).join('\n');
-  const thumbTags = v.photos.length > 1 ? v.photos.map((ph, i) =>
-    `        <button type="button" class="pp-thumb${i === 0 ? ' active' : ''}" data-idx="${i}" aria-label="Photo ${i + 1}"><img src="../${escAttr(ph.image)}" alt="" loading="lazy" /></button>`
-  ).join('\n') : '';
+  // <picture> emits WebP for modern browsers, raster fallback for old Safari/IE.
+  const photoTags = v.photos.map((ph, i) => {
+    const webp = ph.image.replace(/\.(jpe?g|png)$/i, '.webp');
+    return `      <picture class="pp-photo${i === 0 ? ' active' : ''}">
+        <source srcset="../${escAttr(webp)}" type="image/webp" />
+        <img src="../${escAttr(ph.image)}" alt="${escAttr(titleName)} photo ${i + 1}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async" />
+      </picture>`;
+  }).join('\n');
+  const thumbTags = v.photos.length > 1 ? v.photos.map((ph, i) => {
+    const webp = ph.image.replace(/\.(jpe?g|png)$/i, '.webp');
+    return `        <button type="button" class="pp-thumb${i === 0 ? ' active' : ''}" data-idx="${i}" aria-label="Photo ${i + 1}"><picture><source srcset="../${escAttr(webp)}" type="image/webp" /><img src="../${escAttr(ph.image)}" alt="" loading="lazy" /></picture></button>`;
+  }).join('\n') : '';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -192,8 +198,11 @@ a { color: inherit; }
 @media (max-width: 768px) { .pp-wrap { grid-template-columns: 1fr; gap: 24px; padding: 16px; } }
 .pp-gallery { position: relative; }
 .pp-main { position: relative; aspect-ratio: 3/4; background: #f0f0f0; border-radius: 12px; overflow: hidden; }
-.pp-photo { width: 100%; height: 100%; object-fit: cover; display: none; }
+.pp-photo { width: 100%; height: 100%; display: none; position: absolute; inset: 0; }
 .pp-photo.active { display: block; }
+.pp-photo > img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pp-thumb > picture { width: 100%; height: 100%; display: block; }
+.pp-thumb > picture > img { width: 100%; height: 100%; object-fit: cover; }
 .pp-nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,.9); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,.15); transition: background .15s; }
 .pp-nav:hover { background: #fff; }
 .pp-nav.prev { left: 12px; } .pp-nav.next { right: 12px; }

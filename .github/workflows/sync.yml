@@ -36,6 +36,9 @@ jobs:
       - name: Run scrape
         run: node tools/scrape.js
 
+      - name: Convert all product images to WebP (saves ~40-60% bandwidth)
+        run: node tools/convert_webp.js
+
       - name: Generate fresh og-cover from new catalogue
         run: node tools/generate_og_cover.js
 
@@ -51,7 +54,8 @@ jobs:
         run: |
           git config user.name  "paparazzi-sync-bot"
           git config user.email "actions@github.com"
-          # Use -A so deletions (orphaned images / pages removed from origin) are staged too.
+          # Use -A so deletions (orphaned images / pages / webp removed from origin) are staged too.
+          # assets/img/products covers both raster sources and their .webp siblings.
           git add -A assets/products.json assets/products-ld.json assets/img/products assets/img/og-cover.jpg sitemap.xml product
           # IndexNow key file lives at repo root.
           git add -A '*.txt' || true
