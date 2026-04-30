@@ -92,11 +92,13 @@
   function buildCardHtml(v) {
     const variantSuffix = v.variant && v.variant !== '1' ? ` (variant ${v.variant})` : '';
     const orderText = encodeURIComponent(`Hello, I am interested in ${v.name}${variantSuffix} - wholesale order`);
+    const slug = `${v.category}-${v.code}-v${v.variant || '1'}`;
+    const productUrl = `product/${slug}.html`;
     let codeText = `#${v.code}`;
     if (v.variant && v.variant !== '1') codeText += ` · v${v.variant}`;
     const catName = v.category.charAt(0).toUpperCase() + v.category.slice(1);
     const photos = v.photos.map((ph, i) =>
-      `<img src="${escapeAttr(ph.image)}" alt="${escapeAttr(v.name)} photo ${i+1}" class="product-photo${i===0?' active':''}" loading="lazy" />`
+      `<img src="${escapeAttr(ph.image)}" alt="${escapeAttr(v.name)} photo ${i+1}" class="product-photo${i===0?' active':''}" loading="lazy" decoding="async" />`
     ).join('');
     const hasGallery = v.photos.length > 1;
     const dots = hasGallery
@@ -107,9 +109,13 @@
          <button type="button" class="nav-btn nav-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>
          <span class="photo-counter">1 / ${v.photos.length}</span>`
       : '';
+    // Card uses a <div> wrapper with click-to-navigate so the inner WhatsApp <a>
+    // stays valid HTML (no nested <a> tags). A real <a class="product-link">
+    // sits behind the photo so right-click → "Open in new tab" still works,
+    // and crawlers see a proper href to /product/<slug>.html.
     return `
-      <a href="https://wa.me/905393909958?text=${orderText}" target="_blank" rel="noopener"
-         class="product-card" data-category="${escapeAttr(v.category)}" data-code="${escapeAttr(v.code)}" data-variant="${escapeAttr(v.variant || '1')}">
+      <div class="product-card" data-href="${escapeAttr(productUrl)}" data-category="${escapeAttr(v.category)}" data-code="${escapeAttr(v.code)}" data-variant="${escapeAttr(v.variant || '1')}" tabindex="0" role="link" aria-label="${escapeAttr(v.name)} — view details">
+        <a href="${escapeAttr(productUrl)}" class="product-link" aria-label="${escapeAttr(v.name)} details" tabindex="-1"></a>
         <div class="product-image">
           <div class="product-photos">${photos}</div>
           <span class="product-badge" data-i18n="cat.${escapeAttr(v.category)}">${escapeAttr(v.category.toUpperCase())}</span>
@@ -121,12 +127,37 @@
             <h3 class="product-name" data-i18n="cat.${escapeAttr(v.category)}.name">${escapeAttr(catName)}</h3>
             <span class="product-code">${escapeAttr(codeText)}</span>
           </div>
-          <span class="product-cta" aria-label="Order on WhatsApp">
+          <a href="https://wa.me/905393909958?text=${orderText}" target="_blank" rel="noopener"
+             class="product-cta" aria-label="Order ${escapeAttr(v.name)} on WhatsApp"
+             data-stop-card-nav>
             <i data-lucide="message-circle"></i>
-          </span>
+          </a>
         </div>
-      </a>
+      </div>
     `;
+  }
+
+  // Card click → navigate to product page (unless click was on gallery nav,
+  // dots, the WhatsApp CTA, or the underlying <a class="product-link">).
+  function attachCardNavHandlers() {
+    const grid = document.getElementById('product-grid');
+    if (!grid) return;
+    grid.addEventListener('click', (e) => {
+      // Already a real link click — let browser handle it.
+      if (e.target.closest('.product-link, .product-cta, .nav-btn, .dot')) return;
+      const card = e.target.closest('.product-card');
+      if (!card || !card.dataset.href) return;
+      window.location.href = card.dataset.href;
+    });
+    // Keyboard accessibility: Enter / Space on focused card opens the page.
+    grid.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const card = e.target.closest('.product-card');
+      if (!card || !card.dataset.href) return;
+      if (e.target !== card) return; // only when card itself has focus
+      e.preventDefault();
+      window.location.href = card.dataset.href;
+    });
   }
 
   // Delegate gallery clicks (prev/next/dots) — must intercept before <a> default
@@ -276,6 +307,7 @@
     renderFilterTabs(variants, catOrder);
     attachFilterListeners();
     attachGalleryHandlers();
+    attachCardNavHandlers();
     refreshIcons();
     // Re-run translations so newly inserted data-i18n elements get the current language
     if (typeof window.setLanguage === 'function') {

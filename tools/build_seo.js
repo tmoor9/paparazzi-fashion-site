@@ -96,11 +96,12 @@ function buildSitemap(variants) {
   }
   lines.push('  </url>');
 
-  // Per-variant fragment URL (good for share + non-Google crawlers)
+  // Per-variant dedicated page (built by tools/build_product_pages.js).
+  // Static URLs index much better than #fragments and surface in image search.
   for (const v of variants) {
     const slug = variantSlug(v);
     lines.push('  <url>');
-    lines.push(`    <loc>${SITE}/#product=${slug}</loc>`);
+    lines.push(`    <loc>${SITE}/product/${slug}.html</loc>`);
     lines.push(`    <lastmod>${today}</lastmod>`);
     lines.push('    <changefreq>weekly</changefreq>');
     lines.push('    <priority>0.7</priority>');
@@ -153,7 +154,7 @@ function buildProductsLd(variants) {
         category: catMap[v.category] || 'Apparel',
         brand: { '@type': 'Brand', name: 'Paparazzi Fashion' },
         image: images,
-        url: `${SITE}/#product=${slug}`,
+        url: `${SITE}/product/${slug}.html`,
         offers: {
           '@type': 'Offer',
           priceCurrency: 'USD',
@@ -234,7 +235,7 @@ function pingIndexNow(urls) {
     const urls = [
       `${SITE}/`,
       `${SITE}/sitemap.xml`,
-      ...variants.slice(0, 48).map(v => `${SITE}/#product=${variantSlug(v)}`),
+      ...variants.slice(0, 48).map(v => `${SITE}/product/${variantSlug(v)}.html`),
     ];
     await pingIndexNow(urls);
   } else {

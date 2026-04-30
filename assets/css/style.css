@@ -386,15 +386,28 @@ h3 { font-size: 1.4rem; }
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;
 }
 .product-card {
+  position: relative;
   background: var(--white); border-radius: var(--radius-lg);
   overflow: hidden; box-shadow: var(--shadow-sm);
   border: 1px solid rgba(0,0,0,0.05);
   display: flex; flex-direction: column;
   transition: all var(--transition);
+  cursor: pointer;
+  text-decoration: none; color: inherit;
 }
 .product-card:hover {
   transform: translateY(-6px); box-shadow: var(--shadow-lg);
   border-color: var(--dark);
+}
+.product-card:focus-visible {
+  outline: 2px solid var(--dark); outline-offset: 2px;
+}
+/* Invisible anchor behind the card so right-click → "Open in new tab" works
+   and crawlers see a real href; pointer-events disabled so nav buttons still receive clicks. */
+.product-link {
+  position: absolute; inset: 0; z-index: 1;
+  pointer-events: none; /* JS handles primary click on the card div */
+  text-indent: -9999px; overflow: hidden;
 }
 .product-card.is-hidden { display: none; }
 .product-image {
@@ -478,10 +491,12 @@ h3 { font-size: 1.4rem; }
   font-variant-numeric: tabular-nums;
 }
 .product-cta {
+  position: relative; z-index: 2; /* above .product-link */
   display: inline-flex; align-items: center; justify-content: center;
   width: 40px; height: 40px; border-radius: 50%;
   background: var(--gray-100); color: var(--dark);
   flex-shrink: 0; transition: all var(--transition);
+  text-decoration: none;
 }
 .product-card:hover .product-cta {
   background: var(--dark); color: var(--white);
