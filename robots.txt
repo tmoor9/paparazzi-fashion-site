@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://tmoor9.github.io/paparazzi-fashion-site/sitemap.xml
+Sitemap: https://paparazzifashion.shop/sitemap.xml
