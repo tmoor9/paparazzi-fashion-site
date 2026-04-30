@@ -174,18 +174,56 @@
     });
   }
 
-  function updateFilterCounts(products) {
-    const counts = { all: products.length };
+  // Pluralised English labels used as fallback when no i18n entry is present.
+  const PLURAL_LABELS = {
+    set: 'Sets', dress: 'Dresses', shirt: 'Shirts', tshirt: 'T-shirts',
+    tunic: 'Tunics', jacket: 'Jackets', cardigan: 'Cardigans', coat: 'Coats',
+    top: 'Tops', blouse: 'Blouses', skirt: 'Skirts', pants: 'Pants',
+    sweater: 'Sweaters', hoodie: 'Hoodies', jumpsuit: 'Jumpsuits',
+    tracksuit: 'Tracksuits', skort: 'Skorts', other: 'Other',
+  };
+
+  function pluralLabel(cat) {
+    if (PLURAL_LABELS[cat]) return PLURAL_LABELS[cat];
+    return cat.charAt(0).toUpperCase() + cat.slice(1) + 's';
+  }
+
+  // Render filter tabs dynamically based on categories present in products.
+  // Preserves the existing "All" tab; appends one tab per category in display order.
+  function renderFilterTabs(products, displayOrder) {
+    const container = document.querySelector('.filter-tabs');
+    if (!container) return;
+    const counts = {};
     products.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
-    document.querySelectorAll('.filter-tab').forEach(tab => {
-      const f = tab.dataset.filter;
-      const countEl = tab.querySelector('.count');
-      if (countEl && counts[f] !== undefined) countEl.textContent = `(${counts[f]})`;
-      // Hide filter tab if no products in that category
-      if (f !== 'all' && (!counts[f] || counts[f] === 0)) {
-        tab.style.display = 'none';
-      }
+
+    // Update "All" count
+    const allTab = container.querySelector('[data-filter="all"]');
+    if (allTab) {
+      const countEl = allTab.querySelector('.count');
+      if (countEl) countEl.textContent = `(${products.length})`;
+    }
+
+    // Sort categories: first by displayOrder, then by descending count, then alpha.
+    const categories = Object.keys(counts);
+    categories.sort((a, b) => {
+      const oa = displayOrder[a] ?? 99;
+      const ob = displayOrder[b] ?? 99;
+      if (oa !== ob) return oa - ob;
+      if (counts[a] !== counts[b]) return counts[b] - counts[a];
+      return a.localeCompare(b);
     });
+
+    // Remove old dynamic tabs (keep only "All")
+    container.querySelectorAll('.filter-tab:not([data-filter="all"])').forEach(el => el.remove());
+
+    // Append fresh tabs
+    for (const cat of categories) {
+      const tab = document.createElement('button');
+      tab.className = 'filter-tab';
+      tab.dataset.filter = cat;
+      tab.innerHTML = `<span data-i18n="catalog.filter.${cat}">${pluralLabel(cat)}</span> <em class="count">(${counts[cat]})</em>`;
+      container.appendChild(tab);
+    }
   }
 
   async function initCatalog() {
@@ -219,8 +257,12 @@
     }
     const variants = [...variantMap.values()];
     variants.forEach(v => v.photos.sort((a, b) => a.photo - b.photo));
-    // Strict order: sets → dresses → shirts → t-shirts → tunics → jackets → cardigans.
-    const catOrder = { set: 0, dress: 1, shirt: 2, tshirt: 3, tunic: 4, jacket: 5, cardigan: 6 };
+    // Display order: sets → dresses → coats → jackets → tops/shirts/blouses → tracksuits → skirts → pants → cardigans → other.
+    const catOrder = {
+      set: 0, dress: 1, coat: 2, jacket: 3, blouse: 4, shirt: 5, tshirt: 6,
+      top: 7, tunic: 8, tracksuit: 9, jumpsuit: 10, skirt: 11, pants: 12,
+      sweater: 13, hoodie: 14, cardigan: 15, skort: 16, other: 99,
+    };
     variants.sort((a, b) => {
       const oa = catOrder[a.category] ?? 99;
       const ob = catOrder[b.category] ?? 99;
@@ -231,7 +273,7 @@
       return va - vb;
     });
     grid.innerHTML = variants.map(buildCardHtml).join('');
-    updateFilterCounts(variants);
+    renderFilterTabs(variants, catOrder);
     attachFilterListeners();
     attachGalleryHandlers();
     refreshIcons();
