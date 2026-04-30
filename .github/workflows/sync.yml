@@ -39,11 +39,16 @@ jobs:
       - name: Generate fresh og-cover from new catalogue
         run: node tools/generate_og_cover.js
 
-      - name: Commit & push if products.json or images changed
+      - name: Build SEO artefacts (sitemap.xml, products-ld.json, IndexNow key) + ping search engines
+        env:
+          INDEXNOW: '1'
+        run: node tools/build_seo.js
+
+      - name: Commit & push if catalogue or SEO changed
         run: |
           git config user.name  "paparazzi-sync-bot"
           git config user.email "actions@github.com"
-          git add assets/products.json assets/img/products assets/img/og-cover.jpg
+          git add assets/products.json assets/products-ld.json assets/img/products assets/img/og-cover.jpg sitemap.xml '*.txt'
           if git diff --cached --quiet; then
             echo "No catalogue changes detected — nothing to commit."
             exit 0

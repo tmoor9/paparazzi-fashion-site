@@ -282,8 +282,25 @@
       const currentLang = document.documentElement.dataset.lang || 'en';
       window.setLanguage(currentLang);
     }
+    // Inject Product ItemList structured data so search engines see the full catalogue.
+    injectProductsLd();
   }
   initCatalog();
+
+  // Fetch precomputed JSON-LD ItemList (built by tools/build_seo.js) and embed
+  // as <script type="application/ld+json"> for Google/Bing/Yandex rich results.
+  async function injectProductsLd() {
+    try {
+      const resp = await fetch('assets/products-ld.json', { cache: 'force-cache' });
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const tag = document.createElement('script');
+      tag.type = 'application/ld+json';
+      tag.id = 'pf-products-ld';
+      tag.textContent = JSON.stringify(data);
+      document.head.appendChild(tag);
+    } catch (_) { /* non-critical */ }
+  }
 
   // Intersection Observer — fade-in animations
   if ('IntersectionObserver' in window) {
