@@ -48,7 +48,10 @@ jobs:
         run: |
           git config user.name  "paparazzi-sync-bot"
           git config user.email "actions@github.com"
-          git add assets/products.json assets/products-ld.json assets/img/products assets/img/og-cover.jpg sitemap.xml '*.txt'
+          # Use -A so deletions (orphaned images removed from origin) are staged too.
+          git add -A assets/products.json assets/products-ld.json assets/img/products assets/img/og-cover.jpg sitemap.xml
+          # IndexNow key file lives at repo root.
+          git add -A '*.txt' || true
           if git diff --cached --quiet; then
             echo "No catalogue changes detected — nothing to commit."
             exit 0

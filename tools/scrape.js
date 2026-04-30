@@ -278,6 +278,25 @@ async function collectShopUrls(page) {
 
   fs.writeFileSync(PRODUCTS_JSON, JSON.stringify(products, null, 2) + '\n');
 
+  // Delete orphaned image files — photos no longer referenced in products.json.
+  // Only runs after a successful, non-empty scrape (safety net against accidental wipes).
+  let orphanedDeleted = 0;
+  if (products.length >= 50 && failed < productUrls.length / 2) {
+    const referencedFiles = new Set(products.map(p => path.basename(p.image)));
+    if (fs.existsSync(OUT_DIR)) {
+      for (const fname of fs.readdirSync(OUT_DIR)) {
+        if (!referencedFiles.has(fname)) {
+          try {
+            fs.unlinkSync(path.join(OUT_DIR, fname));
+            orphanedDeleted++;
+          } catch (_) {}
+        }
+      }
+    }
+  } else {
+    console.log('Skipping orphan cleanup (scrape result looks suspicious — too few products or too many failures).');
+  }
+
   const byCat = {};
   products.forEach(p => { byCat[p.category] = (byCat[p.category] || 0) + 1; });
 
@@ -285,6 +304,7 @@ async function collectShopUrls(page) {
   console.log(`Total photos in catalogue: ${products.length}`);
   console.log(`New (downloaded): ${downloaded}  |  Cached: ${cached}  |  Failed: ${failed}`);
   console.log(`Diff vs previous products.json: +${added} / -${removed}`);
+  console.log(`Orphaned image files deleted: ${orphanedDeleted}`);
   console.log('By category:', JSON.stringify(byCat));
 
   await browser.close();
