@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Paparazzi Fashion Wholesale Catalog",
-  "numberOfItems": 228,
+  "numberOfItems": 138,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -127,35 +127,6 @@
       "position": 5,
       "item": {
         "@type": "Product",
-        "name": "Dress 0106",
-        "sku": "DRESS-0106-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0106-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0106-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0106-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0106-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0106-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200106%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "item": {
-        "@type": "Product",
         "name": "Dress 0110",
         "sku": "DRESS-0110-V1",
         "category": "Dress",
@@ -183,7 +154,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 6,
       "item": {
         "@type": "Product",
         "name": "Dress 0110",
@@ -212,273 +183,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0113",
-        "sku": "DRESS-0113-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0113-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200113%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0113",
-        "sku": "DRESS-0113-V2",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0113-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0113-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200113%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 10,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0123",
-        "sku": "DRESS-0123-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p5.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0123-v1-p6.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0123-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200123%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 11,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0145",
-        "sku": "DRESS-0145-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v1-p4.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0145-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200145%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 12,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0145",
-        "sku": "DRESS-0145-V2",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v2-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v2-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v2-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v2-p4.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0145-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200145%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 13,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0145",
-        "sku": "DRESS-0145-V3",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v3-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v3-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v3-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-0145-v3-p4.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0145-v3.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200145%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 14,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0154",
-        "sku": "DRESS-0154-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p5.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v1-p6.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0154-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200154%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 15,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0154",
-        "sku": "DRESS-0154-V2",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0154-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200154%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 16,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0154",
-        "sku": "DRESS-0154-V3",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v3-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v3-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v3-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v3-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0154-v3-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0154-v3.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200154%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 17,
+      "position": 7,
       "item": {
         "@type": "Product",
         "name": "Dress 0186",
@@ -509,7 +214,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 8,
       "item": {
         "@type": "Product",
         "name": "Dress 0186",
@@ -539,40 +244,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 0206",
-        "sku": "DRESS-0206-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p6.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p7.jpg",
-          "https://paparazzifashion.shop/assets/img/products/dress-0206-v1-p8.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-0206-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%200206%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 20,
+      "position": 9,
       "item": {
         "@type": "Product",
         "name": "Dress 0207",
@@ -605,7 +277,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 10,
       "item": {
         "@type": "Product",
         "name": "Dress 0207",
@@ -638,7 +310,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 11,
       "item": {
         "@type": "Product",
         "name": "Dress 0210",
@@ -671,7 +343,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 12,
       "item": {
         "@type": "Product",
         "name": "Dress 0211",
@@ -701,7 +373,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 13,
       "item": {
         "@type": "Product",
         "name": "Dress 0211",
@@ -731,7 +403,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 14,
       "item": {
         "@type": "Product",
         "name": "Dress 0211",
@@ -762,7 +434,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 15,
       "item": {
         "@type": "Product",
         "name": "Dress 0212",
@@ -794,7 +466,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 16,
       "item": {
         "@type": "Product",
         "name": "Dress 0212",
@@ -827,7 +499,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 17,
       "item": {
         "@type": "Product",
         "name": "Dress 2797",
@@ -856,7 +528,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 18,
       "item": {
         "@type": "Product",
         "name": "Dress 2872",
@@ -886,7 +558,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 19,
       "item": {
         "@type": "Product",
         "name": "Dress 2910",
@@ -915,7 +587,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 20,
       "item": {
         "@type": "Product",
         "name": "Dress 2910",
@@ -945,7 +617,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 21,
       "item": {
         "@type": "Product",
         "name": "Dress 2972",
@@ -974,7 +646,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 22,
       "item": {
         "@type": "Product",
         "name": "Dress 2972",
@@ -1003,7 +675,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 23,
       "item": {
         "@type": "Product",
         "name": "Dress 2989",
@@ -1032,7 +704,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 24,
       "item": {
         "@type": "Product",
         "name": "Dress 2989",
@@ -1062,7 +734,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 25,
       "item": {
         "@type": "Product",
         "name": "Dress 3061",
@@ -1092,7 +764,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 26,
       "item": {
         "@type": "Product",
         "name": "Dress 3061",
@@ -1121,7 +793,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 27,
       "item": {
         "@type": "Product",
         "name": "Dress 3068",
@@ -1150,70 +822,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3082",
-        "sku": "DRESS-3082-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p7.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v1-p8.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3082-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203082%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 40,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3082",
-        "sku": "DRESS-3082-V2",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3082-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3082-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203082%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 41,
+      "position": 28,
       "item": {
         "@type": "Product",
         "name": "Dress 3088",
@@ -1243,7 +852,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 29,
       "item": {
         "@type": "Product",
         "name": "Dress 3088",
@@ -1273,7 +882,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 30,
       "item": {
         "@type": "Product",
         "name": "Dress 3105",
@@ -1303,7 +912,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 31,
       "item": {
         "@type": "Product",
         "name": "Dress 3105",
@@ -1333,67 +942,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 45,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3118",
-        "sku": "DRESS-3118-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3118-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203118%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 46,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3118",
-        "sku": "DRESS-3118-V2",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3118-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3118-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203118%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 47,
+      "position": 32,
       "item": {
         "@type": "Product",
         "name": "Dress 3299",
@@ -1422,7 +971,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 33,
       "item": {
         "@type": "Product",
         "name": "Dress 3318",
@@ -1453,7 +1002,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 34,
       "item": {
         "@type": "Product",
         "name": "Dress 3321",
@@ -1483,7 +1032,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 35,
       "item": {
         "@type": "Product",
         "name": "Dress 3327",
@@ -1513,7 +1062,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 36,
       "item": {
         "@type": "Product",
         "name": "Dress 3336",
@@ -1546,65 +1095,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 52,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3344",
-        "sku": "DRESS-3344-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3344-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3344-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3344-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3344-v1-p4.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3344-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203344%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 53,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3350",
-        "sku": "DRESS-3350-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3350-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3350-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3350-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/dress-3350-v1-p4.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3350-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203350%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 54,
+      "position": 37,
       "item": {
         "@type": "Product",
         "name": "Dress 3370",
@@ -1634,7 +1125,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 38,
       "item": {
         "@type": "Product",
         "name": "Dress 3371",
@@ -1664,7 +1155,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 39,
       "item": {
         "@type": "Product",
         "name": "Dress 3384",
@@ -1694,7 +1185,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 40,
       "item": {
         "@type": "Product",
         "name": "Dress 3391",
@@ -1723,37 +1214,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 58,
-      "item": {
-        "@type": "Product",
-        "name": "Dress 3406",
-        "sku": "DRESS-3406-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3406-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3406-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3406-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3406-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3406-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3406-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203406%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 59,
+      "position": 41,
       "item": {
         "@type": "Product",
         "name": "Dress 3407",
@@ -1782,66 +1243,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 60,
-      "item": {
-        "@type": "Product",
-        "name": "Zippered Jacket 0117",
-        "sku": "OTHER-0117-V1",
-        "category": "Apparel",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/other-0117-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Zippered%20Jacket%200117%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 61,
-      "item": {
-        "@type": "Product",
-        "name": "Zippered Jacket 0117",
-        "sku": "OTHER-0117-V2",
-        "category": "Apparel",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v2-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/other-0117-v2-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/other-0117-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Zippered%20Jacket%200117%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 62,
+      "position": 42,
       "item": {
         "@type": "Product",
         "name": "Pants 3183-2",
@@ -1874,7 +1276,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 63,
+      "position": 43,
       "item": {
         "@type": "Product",
         "name": "Pants 3200 – 1",
@@ -1905,7 +1307,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 64,
+      "position": 44,
       "item": {
         "@type": "Product",
         "name": "Pants 3201 – 3",
@@ -1938,7 +1340,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 65,
+      "position": 45,
       "item": {
         "@type": "Product",
         "name": "Pants 3212 – 1",
@@ -1969,37 +1371,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 66,
-      "item": {
-        "@type": "Product",
-        "name": "Set 006",
-        "sku": "SET-006-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-006-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-006-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-006-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-006-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-006-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-006-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%20006%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 67,
+      "position": 46,
       "item": {
         "@type": "Product",
         "name": "Set 0013",
@@ -2029,7 +1401,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 68,
+      "position": 47,
       "item": {
         "@type": "Product",
         "name": "Set 0014",
@@ -2059,38 +1431,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 69,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0015",
-        "sku": "SET-0015-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0015-v1-p6.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0015-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200015%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 70,
+      "position": 48,
       "item": {
         "@type": "Product",
         "name": "Set 0016",
@@ -2120,36 +1461,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 71,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0018",
-        "sku": "SET-0018-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0018-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0018-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0018-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0018-v1-p4.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0018-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200018%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 72,
+      "position": 49,
       "item": {
         "@type": "Product",
         "name": "Set 0019",
@@ -2179,7 +1491,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 50,
       "item": {
         "@type": "Product",
         "name": "Set 0034",
@@ -2208,36 +1520,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 74,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0046",
-        "sku": "SET-0046-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0046-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0046-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0046-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0046-v1-p4.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0046-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200046%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 75,
+      "position": 51,
       "item": {
         "@type": "Product",
         "name": "Set 0049",
@@ -2266,95 +1549,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 76,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0079",
-        "sku": "SET-0079-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0079-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0079-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0079-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0079-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0079-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200079%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 77,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0086",
-        "sku": "SET-0086-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v1-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0086-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200086%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 78,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0086",
-        "sku": "SET-0086-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0086-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0086-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200086%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 79,
+      "position": 52,
       "item": {
         "@type": "Product",
         "name": "Set 092",
@@ -2382,35 +1577,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 80,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0094",
-        "sku": "SET-0094-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0094-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0094-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0094-v1-p3.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0094-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200094%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 81,
+      "position": 53,
       "item": {
         "@type": "Product",
         "name": "Set 096",
@@ -2439,67 +1606,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 82,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0102",
-        "sku": "SET-0102-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v1-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0102-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200102%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 83,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0102",
-        "sku": "SET-0102-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v2-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v2-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v2-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0102-v2-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0102-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200102%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 84,
+      "position": 54,
       "item": {
         "@type": "Product",
         "name": "Set 0103",
@@ -2529,7 +1636,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 55,
       "item": {
         "@type": "Product",
         "name": "Set 0103",
@@ -2560,245 +1667,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 86,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0111",
-        "sku": "SET-0111-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0111-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200111%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 87,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0111",
-        "sku": "SET-0111-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v2-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v2-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0111-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200111%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 88,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0111",
-        "sku": "SET-0111-V3",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v3-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v3-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v3-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v3-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0111-v3-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0111-v3.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200111%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 89,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0124",
-        "sku": "SET-0124-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0124-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200124%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 90,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0124",
-        "sku": "SET-0124-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v2-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v2-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v2-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0124-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0124-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200124%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 91,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0125",
-        "sku": "SET-0125-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0125-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0125-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0125-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0125-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0125-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0125-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200125%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 92,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0126",
-        "sku": "SET-0126-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0126-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200126%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 93,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0126",
-        "sku": "SET-0126-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0126-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0126-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200126%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 94,
+      "position": 56,
       "item": {
         "@type": "Product",
         "name": "Set 0134",
@@ -2827,7 +1696,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 57,
       "item": {
         "@type": "Product",
         "name": "Set 0134",
@@ -2856,7 +1725,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 96,
+      "position": 58,
       "item": {
         "@type": "Product",
         "name": "Set 0134",
@@ -2885,7 +1754,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 97,
+      "position": 59,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -2914,7 +1783,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 98,
+      "position": 60,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -2943,7 +1812,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 99,
+      "position": 61,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -2972,7 +1841,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 62,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -3001,67 +1870,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 101,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0138",
-        "sku": "SET-0138-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v1-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0138-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200138%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 102,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0138",
-        "sku": "SET-0138-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v2-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v2-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v2-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v2-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0138-v2-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0138-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200138%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 103,
+      "position": 63,
       "item": {
         "@type": "Product",
         "name": "Set 0139",
@@ -3090,7 +1899,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 64,
       "item": {
         "@type": "Product",
         "name": "Set 0139",
@@ -3118,64 +1927,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 105,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0140",
-        "sku": "SET-0140-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v1-p3.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0140-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200140%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 106,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0140",
-        "sku": "SET-0140-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0140-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0140-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200140%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 107,
+      "position": 65,
       "item": {
         "@type": "Product",
         "name": "Set 0141",
@@ -3204,7 +1956,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 108,
+      "position": 66,
       "item": {
         "@type": "Product",
         "name": "Set 0141",
@@ -3234,156 +1986,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 109,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0147",
-        "sku": "SET-0147-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0147-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0147-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0147-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0147-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0147-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0147-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200147%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 110,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0148",
-        "sku": "SET-0148-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0148-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200148%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 111,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0148",
-        "sku": "SET-0148-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v2-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0148-v2-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0148-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200148%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 112,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0149",
-        "sku": "SET-0149-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0149-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200149%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 113,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0149",
-        "sku": "SET-0149-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v2-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v2-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v2-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v2-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-0149-v2-p5.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0149-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200149%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 114,
+      "position": 67,
       "item": {
         "@type": "Product",
         "name": "Set 0151",
@@ -3411,7 +2014,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 68,
       "item": {
         "@type": "Product",
         "name": "Set 0151",
@@ -3440,66 +2043,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 116,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0152",
-        "sku": "SET-0152-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0152-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200152%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 117,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0152",
-        "sku": "SET-0152-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0152-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0152-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200152%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 118,
+      "position": 69,
       "item": {
         "@type": "Product",
         "name": "Set 0153",
@@ -3529,7 +2073,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 70,
       "item": {
         "@type": "Product",
         "name": "Set 0153",
@@ -3558,190 +2102,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 120,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0155",
-        "sku": "SET-0155-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v1-p7.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0155-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200155%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 121,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0155",
-        "sku": "SET-0155-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p7.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0155-v2-p8.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0155-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200155%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 122,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0156",
-        "sku": "SET-0156-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0156-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200156%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 123,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0156",
-        "sku": "SET-0156-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0156-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0156-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200156%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 124,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0157",
-        "sku": "SET-0157-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0157-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200157%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 125,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0157",
-        "sku": "SET-0157-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0157-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0157-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200157%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 126,
+      "position": 71,
       "item": {
         "@type": "Product",
         "name": "Set 0163",
@@ -3770,7 +2131,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 127,
+      "position": 72,
       "item": {
         "@type": "Product",
         "name": "Set 0163",
@@ -3799,7 +2160,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 128,
+      "position": 73,
       "item": {
         "@type": "Product",
         "name": "Set 0163",
@@ -3828,7 +2189,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 129,
+      "position": 74,
       "item": {
         "@type": "Product",
         "name": "Set 0163",
@@ -3857,479 +2218,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 130,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0165",
-        "sku": "SET-0165-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0165-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200165%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 131,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0165",
-        "sku": "SET-0165-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0165-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0165-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200165%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 132,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0166",
-        "sku": "SET-0166-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p5.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p6.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p7.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v1-p8.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0166-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200166%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 133,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0166",
-        "sku": "SET-0166-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0166-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0166-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200166%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 134,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0167",
-        "sku": "SET-0167-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0167-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200167%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 135,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0167",
-        "sku": "SET-0167-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0167-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200167%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 136,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0167",
-        "sku": "SET-0167-V3",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v3-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v3-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v3-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0167-v3-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0167-v3.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200167%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 137,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0168",
-        "sku": "SET-0168-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0168-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200168%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 138,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0168",
-        "sku": "SET-0168-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0168-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0168-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200168%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 139,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0169",
-        "sku": "SET-0169-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0169-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200169%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 140,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0169",
-        "sku": "SET-0169-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0169-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200169%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 141,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0169",
-        "sku": "SET-0169-V3",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v3-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v3-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v3-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v3-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0169-v3.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200169%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 142,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0169",
-        "sku": "SET-0169-V4",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v4-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v4-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v4-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0169-v4-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0169-v4.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200169%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 143,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0170",
-        "sku": "SET-0170-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v1-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0170-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200170%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 144,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0170",
-        "sku": "SET-0170-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0170-v2-p4.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0170-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200170%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 145,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0172",
-        "sku": "SET-0172-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p5.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p7.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0172-v1-p8.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0172-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200172%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 146,
+      "position": 75,
       "item": {
         "@type": "Product",
         "name": "Set 0174",
@@ -4359,7 +2248,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 147,
+      "position": 76,
       "item": {
         "@type": "Product",
         "name": "Set 0174",
@@ -4389,7 +2278,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 148,
+      "position": 77,
       "item": {
         "@type": "Product",
         "name": "Set 0174",
@@ -4419,7 +2308,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 149,
+      "position": 78,
       "item": {
         "@type": "Product",
         "name": "Set 0204",
@@ -4452,7 +2341,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 150,
+      "position": 79,
       "item": {
         "@type": "Product",
         "name": "Set 0204",
@@ -4485,7 +2374,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 151,
+      "position": 80,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -4515,7 +2404,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 152,
+      "position": 81,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -4545,7 +2434,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 153,
+      "position": 82,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -4572,7 +2461,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 154,
+      "position": 83,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -4599,69 +2488,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 155,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0213",
-        "sku": "SET-0213-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0213-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200213%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 156,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0213",
-        "sku": "SET-0213-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0213-v2-p7.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0213-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200213%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 157,
+      "position": 84,
       "item": {
         "@type": "Product",
         "name": "Set 0214",
@@ -4692,7 +2519,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 158,
+      "position": 85,
       "item": {
         "@type": "Product",
         "name": "Set 0214",
@@ -4724,7 +2551,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 159,
+      "position": 86,
       "item": {
         "@type": "Product",
         "name": "Set 0215",
@@ -4756,7 +2583,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 160,
+      "position": 87,
       "item": {
         "@type": "Product",
         "name": "Set 0215",
@@ -4787,7 +2614,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 161,
+      "position": 88,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -4816,7 +2643,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 162,
+      "position": 89,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -4849,7 +2676,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 163,
+      "position": 90,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -4879,7 +2706,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 164,
+      "position": 91,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -4909,7 +2736,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 165,
+      "position": 92,
       "item": {
         "@type": "Product",
         "name": "Set 1003 Brilliant Brands",
@@ -4939,7 +2766,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 166,
+      "position": 93,
       "item": {
         "@type": "Product",
         "name": "Set 1003 Brilliant Brands",
@@ -4969,7 +2796,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 167,
+      "position": 94,
       "item": {
         "@type": "Product",
         "name": "Set 1017 Brilliant Brands",
@@ -5000,7 +2827,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 168,
+      "position": 95,
       "item": {
         "@type": "Product",
         "name": "Set 1017 Brilliant Brands",
@@ -5030,7 +2857,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 169,
+      "position": 96,
       "item": {
         "@type": "Product",
         "name": "Set 1018 Brilliant Brands",
@@ -5060,7 +2887,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 170,
+      "position": 97,
       "item": {
         "@type": "Product",
         "name": "Set 1018 Brilliant Brands",
@@ -5090,7 +2917,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 171,
+      "position": 98,
       "item": {
         "@type": "Product",
         "name": "Set 1023 Brilliant Brands",
@@ -5120,7 +2947,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 172,
+      "position": 99,
       "item": {
         "@type": "Product",
         "name": "Set 1024 Brilliant Brands",
@@ -5152,7 +2979,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 173,
+      "position": 100,
       "item": {
         "@type": "Product",
         "name": "Set 1026 Brilliant Brands",
@@ -5183,7 +3010,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 174,
+      "position": 101,
       "item": {
         "@type": "Product",
         "name": "Set 1031 Brilliant Brands",
@@ -5212,7 +3039,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 175,
+      "position": 102,
       "item": {
         "@type": "Product",
         "name": "Set 1032 Brilliant Brands",
@@ -5242,7 +3069,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 176,
+      "position": 103,
       "item": {
         "@type": "Product",
         "name": "Set 2875",
@@ -5272,7 +3099,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 177,
+      "position": 104,
       "item": {
         "@type": "Product",
         "name": "Set 3026",
@@ -5303,7 +3130,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 178,
+      "position": 105,
       "item": {
         "@type": "Product",
         "name": "Set 3029",
@@ -5334,7 +3161,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 179,
+      "position": 106,
       "item": {
         "@type": "Product",
         "name": "Set 3029",
@@ -5363,7 +3190,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 180,
+      "position": 107,
       "item": {
         "@type": "Product",
         "name": "Set 3041",
@@ -5392,7 +3219,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 181,
+      "position": 108,
       "item": {
         "@type": "Product",
         "name": "Set 3041",
@@ -5421,7 +3248,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 182,
+      "position": 109,
       "item": {
         "@type": "Product",
         "name": "Set 3062",
@@ -5450,36 +3277,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 183,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3064",
-        "sku": "SET-3064-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3064-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3064-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3064-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3064-v1-p4.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3064-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203064%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 184,
+      "position": 110,
       "item": {
         "@type": "Product",
         "name": "Set 3081",
@@ -5512,7 +3310,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 185,
+      "position": 111,
       "item": {
         "@type": "Product",
         "name": "Set 3081",
@@ -5542,98 +3340,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 186,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3089",
-        "sku": "SET-3089-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3089-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203089%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 187,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3089",
-        "sku": "SET-3089-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3089-v2-p6.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3089-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203089%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 188,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3109",
-        "sku": "SET-3109-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3109-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3109-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3109-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3109-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3109-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3109-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203109%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 189,
+      "position": 112,
       "item": {
         "@type": "Product",
         "name": "Set 3111",
@@ -5663,7 +3370,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 190,
+      "position": 113,
       "item": {
         "@type": "Product",
         "name": "Set 3114",
@@ -5693,96 +3400,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 191,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3116",
-        "sku": "SET-3116-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3116-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203116%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 192,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3116",
-        "sku": "SET-3116-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3116-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3116-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203116%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 193,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3124",
-        "sku": "SET-3124-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3124-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3124-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3124-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3124-v1-p4.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3124-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203124%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 194,
+      "position": 114,
       "item": {
         "@type": "Product",
         "name": "Set 3125",
@@ -5812,67 +3430,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 195,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3131",
-        "sku": "SET-3131-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3131-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203131%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 196,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3131",
-        "sku": "SET-3131-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3131-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3131-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203131%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 197,
+      "position": 115,
       "item": {
         "@type": "Product",
         "name": "Set 3150",
@@ -5902,38 +3460,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 198,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3152",
-        "sku": "SET-3152-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p1.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p2.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p3.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p4.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p5.webp",
-          "https://paparazzifashion.shop/assets/img/products/set-3152-v1-p6.webp"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3152-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203152%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 199,
+      "position": 116,
       "item": {
         "@type": "Product",
         "name": "Set 3171",
@@ -5963,7 +3490,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 200,
+      "position": 117,
       "item": {
         "@type": "Product",
         "name": "Set 3181",
@@ -5992,37 +3519,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 201,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3198",
-        "sku": "SET-3198-V2",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3198-v2-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3198-v2-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3198-v2-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3198-v2-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3198-v2-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3198-v2.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203198%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 202,
+      "position": 118,
       "item": {
         "@type": "Product",
         "name": "Set 3251",
@@ -6053,38 +3550,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 203,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3262",
-        "sku": "SET-3262-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3262-v1-p6.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3262-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203262%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 204,
+      "position": 119,
       "item": {
         "@type": "Product",
         "name": "Set 3269",
@@ -6113,7 +3579,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 205,
+      "position": 120,
       "item": {
         "@type": "Product",
         "name": "Set 3269",
@@ -6143,7 +3609,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 206,
+      "position": 121,
       "item": {
         "@type": "Product",
         "name": "Set 3270",
@@ -6171,7 +3637,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 207,
+      "position": 122,
       "item": {
         "@type": "Product",
         "name": "Set 3273",
@@ -6201,37 +3667,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 208,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3286",
-        "sku": "SET-3286-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3286-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3286-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3286-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3286-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3286-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3286-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203286%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 209,
+      "position": 123,
       "item": {
         "@type": "Product",
         "name": "Set 3291",
@@ -6261,7 +3697,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 210,
+      "position": 124,
       "item": {
         "@type": "Product",
         "name": "Set 3296",
@@ -6290,7 +3726,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 211,
+      "position": 125,
       "item": {
         "@type": "Product",
         "name": "Set 3297",
@@ -6320,7 +3756,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 212,
+      "position": 126,
       "item": {
         "@type": "Product",
         "name": "Set 3298",
@@ -6349,7 +3785,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 213,
+      "position": 127,
       "item": {
         "@type": "Product",
         "name": "Set 3300",
@@ -6378,69 +3814,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 214,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3307",
-        "sku": "SET-3307-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3307-v1-p7.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3307-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203307%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 215,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3315",
-        "sku": "SET-3315-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3315-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3315-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3315-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3315-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3315-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3315-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203315%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 216,
+      "position": 128,
       "item": {
         "@type": "Product",
         "name": "Set 3323",
@@ -6469,7 +3843,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 217,
+      "position": 129,
       "item": {
         "@type": "Product",
         "name": "Set 3361",
@@ -6498,7 +3872,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 218,
+      "position": 130,
       "item": {
         "@type": "Product",
         "name": "Set 3363",
@@ -6529,38 +3903,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 219,
-      "item": {
-        "@type": "Product",
-        "name": "Set 3381",
-        "sku": "SET-3381-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-3381-v1-p6.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-3381-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%203381%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 220,
+      "position": 131,
       "item": {
         "@type": "Product",
         "name": "Set 3392",
@@ -6589,7 +3932,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 221,
+      "position": 132,
       "item": {
         "@type": "Product",
         "name": "Set 3394",
@@ -6619,7 +3962,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 222,
+      "position": 133,
       "item": {
         "@type": "Product",
         "name": "Shirt 004",
@@ -6648,7 +3991,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 223,
+      "position": 134,
       "item": {
         "@type": "Product",
         "name": "Shirt 004",
@@ -6678,7 +4021,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 224,
+      "position": 135,
       "item": {
         "@type": "Product",
         "name": "Shirt 0036",
@@ -6708,39 +4051,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 225,
-      "item": {
-        "@type": "Product",
-        "name": "Shirt 0164",
-        "sku": "SHIRT-0164-V1",
-        "category": "Shirt",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p5.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p6.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/shirt-0164-v1-p7.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/shirt-0164-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Shirt%200164%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 226,
+      "position": 136,
       "item": {
         "@type": "Product",
         "name": "T-shirt 1029 Brilliant Brands",
@@ -6769,7 +4080,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 227,
+      "position": 137,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
@@ -6798,7 +4109,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 228,
+      "position": 138,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
