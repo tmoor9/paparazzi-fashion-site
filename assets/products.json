@@ -639,51 +639,6 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion/"
   },
   {
-    "code": "2910",
-    "category": "dress",
-    "variant": "2",
-    "photo": 1,
-    "name": "Dress 2910",
-    "image": "assets/img/products/dress-2910-v2-p1.webp",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion-2/"
-  },
-  {
-    "code": "2910",
-    "category": "dress",
-    "variant": "2",
-    "photo": 2,
-    "name": "Dress 2910",
-    "image": "assets/img/products/dress-2910-v2-p2.webp",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion-2/"
-  },
-  {
-    "code": "2910",
-    "category": "dress",
-    "variant": "2",
-    "photo": 3,
-    "name": "Dress 2910",
-    "image": "assets/img/products/dress-2910-v2-p3.webp",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion-2/"
-  },
-  {
-    "code": "2910",
-    "category": "dress",
-    "variant": "2",
-    "photo": 4,
-    "name": "Dress 2910",
-    "image": "assets/img/products/dress-2910-v2-p4.webp",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion-2/"
-  },
-  {
-    "code": "2910",
-    "category": "dress",
-    "variant": "2",
-    "photo": 5,
-    "name": "Dress 2910",
-    "image": "assets/img/products/dress-2910-v2-p5.webp",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2910-paparazzi-fashion-2/"
-  },
-  {
     "code": "2972",
     "category": "dress",
     "variant": "1",
@@ -835,87 +790,6 @@
     "name": "Dress 2989",
     "image": "assets/img/products/dress-2989-v2-p5.jpeg",
     "sourceUrl": "https://paparazzifashion.com.tr/product/dress-2989-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "1",
-    "photo": 1,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v1-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "1",
-    "photo": 2,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v1-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "1",
-    "photo": 3,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v1-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "1",
-    "photo": 4,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "1",
-    "photo": 5,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v1-p5.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "2",
-    "photo": 1,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v2-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "2",
-    "photo": 2,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v2-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "2",
-    "photo": 3,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v2-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3061",
-    "category": "dress",
-    "variant": "2",
-    "photo": 4,
-    "name": "Dress 3061",
-    "image": "assets/img/products/dress-3061-v2-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3061-paparazzi-fashion-2/"
   },
   {
     "code": "3068",
@@ -2061,78 +1935,6 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0034-paparazzi-fashion/"
   },
   {
-    "code": "0049",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 0049",
-    "image": "assets/img/products/set-0049-v1-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0049-paparazzi-fashion/"
-  },
-  {
-    "code": "0049",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 0049",
-    "image": "assets/img/products/set-0049-v1-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0049-paparazzi-fashion/"
-  },
-  {
-    "code": "0049",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 0049",
-    "image": "assets/img/products/set-0049-v1-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0049-paparazzi-fashion/"
-  },
-  {
-    "code": "0049",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 0049",
-    "image": "assets/img/products/set-0049-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0049-paparazzi-fashion/"
-  },
-  {
-    "code": "096",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 096",
-    "image": "assets/img/products/set-096-v1-p1.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-096-paparazzi-fashion/"
-  },
-  {
-    "code": "096",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 096",
-    "image": "assets/img/products/set-096-v1-p2.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-096-paparazzi-fashion/"
-  },
-  {
-    "code": "096",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 096",
-    "image": "assets/img/products/set-096-v1-p3.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-096-paparazzi-fashion/"
-  },
-  {
-    "code": "096",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 096",
-    "image": "assets/img/products/set-096-v1-p4.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-096-paparazzi-fashion/"
-  },
-  {
     "code": "0103",
     "category": "set",
     "variant": "1",
@@ -2286,93 +2088,12 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0135-paparazzi-fashion-4/"
   },
   {
-    "code": "0141",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v1-p1.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v1-p2.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v1-p3.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v1-p4.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "2",
-    "photo": 1,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v2-p1.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion-2/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "2",
-    "photo": 2,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v2-p2.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion-2/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "2",
-    "photo": 3,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v2-p3.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion-2/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "2",
-    "photo": 4,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v2-p4.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion-2/"
-  },
-  {
-    "code": "0141",
-    "category": "set",
-    "variant": "2",
-    "photo": 5,
-    "name": "Set 0141",
-    "image": "assets/img/products/set-0141-v2-p5.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0141-paparazzi-fashion-2/"
-  },
-  {
     "code": "0151",
     "category": "set",
     "variant": "2",
     "photo": 1,
     "name": "Set 0151",
-    "image": "assets/img/products/set-0151-v2-p1.jpg",
+    "image": "assets/img/products/set-0151-v2-p1.webp",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0151-paparazzi-fashion-2/"
   },
   {
@@ -2381,7 +2102,7 @@
     "variant": "2",
     "photo": 2,
     "name": "Set 0151",
-    "image": "assets/img/products/set-0151-v2-p2.jpg",
+    "image": "assets/img/products/set-0151-v2-p2.webp",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0151-paparazzi-fashion-2/"
   },
   {
@@ -2390,7 +2111,7 @@
     "variant": "2",
     "photo": 3,
     "name": "Set 0151",
-    "image": "assets/img/products/set-0151-v2-p3.jpg",
+    "image": "assets/img/products/set-0151-v2-p3.webp",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0151-paparazzi-fashion-2/"
   },
   {
@@ -2399,7 +2120,7 @@
     "variant": "2",
     "photo": 4,
     "name": "Set 0151",
-    "image": "assets/img/products/set-0151-v2-p4.jpg",
+    "image": "assets/img/products/set-0151-v2-p4.webp",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0151-paparazzi-fashion-2/"
   },
   {
@@ -2644,60 +2365,6 @@
     "name": "Set 0205",
     "image": "assets/img/products/set-0205-v4-p2.jpg",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-0205-paparazzi-fashion-4/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p1.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p2.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p3.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 5,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p5.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
-  },
-  {
-    "code": "0214",
-    "category": "set",
-    "variant": "1",
-    "photo": 6,
-    "name": "Set 0214",
-    "image": "assets/img/products/set-0214-v1-p6.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-0214-paparazzi-fashion/"
   },
   {
     "code": "0214",
@@ -3339,96 +3006,6 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-1017-brilliant-brands-2/"
   },
   {
-    "code": "1018",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v1-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v1-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v1-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "1",
-    "photo": 5,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v1-p5.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "2",
-    "photo": 1,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v2-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands-2/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "2",
-    "photo": 2,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v2-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands-2/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "2",
-    "photo": 3,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v2-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands-2/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "2",
-    "photo": 4,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v2-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands-2/"
-  },
-  {
-    "code": "1018",
-    "category": "set",
-    "variant": "2",
-    "photo": 5,
-    "name": "Set 1018 Brilliant Brands",
-    "image": "assets/img/products/set-1018-v2-p5.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-1018-brilliant-brands-2/"
-  },
-  {
     "code": "1023",
     "category": "set",
     "variant": "1",
@@ -3780,42 +3357,6 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-3029-paparazzi-fashion/"
   },
   {
-    "code": "3029",
-    "category": "set",
-    "variant": "2",
-    "photo": 1,
-    "name": "Set 3029",
-    "image": "assets/img/products/set-3029-v2-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3029-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3029",
-    "category": "set",
-    "variant": "2",
-    "photo": 2,
-    "name": "Set 3029",
-    "image": "assets/img/products/set-3029-v2-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3029-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3029",
-    "category": "set",
-    "variant": "2",
-    "photo": 3,
-    "name": "Set 3029",
-    "image": "assets/img/products/set-3029-v2-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3029-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3029",
-    "category": "set",
-    "variant": "2",
-    "photo": 4,
-    "name": "Set 3029",
-    "image": "assets/img/products/set-3029-v2-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3029-paparazzi-fashion-2/"
-  },
-  {
     "code": "3041",
     "category": "set",
     "variant": "1",
@@ -3850,42 +3391,6 @@
     "name": "Set 3041",
     "image": "assets/img/products/set-3041-v1-p4.jpeg",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-3041-paparazzi-fashion/"
-  },
-  {
-    "code": "3041",
-    "category": "set",
-    "variant": "2",
-    "photo": 1,
-    "name": "Set 3041",
-    "image": "assets/img/products/set-3041-v2-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3041-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3041",
-    "category": "set",
-    "variant": "2",
-    "photo": 2,
-    "name": "Set 3041",
-    "image": "assets/img/products/set-3041-v2-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3041-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3041",
-    "category": "set",
-    "variant": "2",
-    "photo": 3,
-    "name": "Set 3041",
-    "image": "assets/img/products/set-3041-v2-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3041-paparazzi-fashion-2/"
-  },
-  {
-    "code": "3041",
-    "category": "set",
-    "variant": "2",
-    "photo": 4,
-    "name": "Set 3041",
-    "image": "assets/img/products/set-3041-v2-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3041-paparazzi-fashion-2/"
   },
   {
     "code": "3062",
@@ -4599,42 +4104,6 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-3300-paparazzi-fashion/"
   },
   {
-    "code": "3323",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 3323",
-    "image": "assets/img/products/set-3323-v1-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3323-paparazzi-fashion/"
-  },
-  {
-    "code": "3323",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 3323",
-    "image": "assets/img/products/set-3323-v1-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3323-paparazzi-fashion/"
-  },
-  {
-    "code": "3323",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 3323",
-    "image": "assets/img/products/set-3323-v1-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3323-paparazzi-fashion/"
-  },
-  {
-    "code": "3323",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 3323",
-    "image": "assets/img/products/set-3323-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3323-paparazzi-fashion/"
-  },
-  {
     "code": "3361",
     "category": "set",
     "variant": "1",
@@ -4804,87 +4273,6 @@
     "name": "Set 3393",
     "image": "assets/img/products/set-3393-v1-p5.webp",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-3393-paparazzi-fashion/"
-  },
-  {
-    "code": "3394",
-    "category": "set",
-    "variant": "1",
-    "photo": 1,
-    "name": "Set 3394",
-    "image": "assets/img/products/set-3394-v1-p1.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3394-paparazzi-fashion/"
-  },
-  {
-    "code": "3394",
-    "category": "set",
-    "variant": "1",
-    "photo": 2,
-    "name": "Set 3394",
-    "image": "assets/img/products/set-3394-v1-p2.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3394-paparazzi-fashion/"
-  },
-  {
-    "code": "3394",
-    "category": "set",
-    "variant": "1",
-    "photo": 3,
-    "name": "Set 3394",
-    "image": "assets/img/products/set-3394-v1-p3.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3394-paparazzi-fashion/"
-  },
-  {
-    "code": "3394",
-    "category": "set",
-    "variant": "1",
-    "photo": 4,
-    "name": "Set 3394",
-    "image": "assets/img/products/set-3394-v1-p4.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3394-paparazzi-fashion/"
-  },
-  {
-    "code": "3394",
-    "category": "set",
-    "variant": "1",
-    "photo": 5,
-    "name": "Set 3394",
-    "image": "assets/img/products/set-3394-v1-p5.jpg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/set-3394-paparazzi-fashion/"
-  },
-  {
-    "code": "004",
-    "category": "shirt",
-    "variant": "1",
-    "photo": 1,
-    "name": "Shirt 004",
-    "image": "assets/img/products/shirt-004-v1-p1.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/shirt-004-paparazzi-fashion/"
-  },
-  {
-    "code": "004",
-    "category": "shirt",
-    "variant": "1",
-    "photo": 2,
-    "name": "Shirt 004",
-    "image": "assets/img/products/shirt-004-v1-p2.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/shirt-004-paparazzi-fashion/"
-  },
-  {
-    "code": "004",
-    "category": "shirt",
-    "variant": "1",
-    "photo": 3,
-    "name": "Shirt 004",
-    "image": "assets/img/products/shirt-004-v1-p3.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/shirt-004-paparazzi-fashion/"
-  },
-  {
-    "code": "004",
-    "category": "shirt",
-    "variant": "1",
-    "photo": 4,
-    "name": "Shirt 004",
-    "image": "assets/img/products/shirt-004-v1-p4.jpeg",
-    "sourceUrl": "https://paparazzifashion.com.tr/product/shirt-004-paparazzi-fashion/"
   },
   {
     "code": "0192",
