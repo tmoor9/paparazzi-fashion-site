@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Paparazzi Fashion Wholesale Catalog",
-  "numberOfItems": 94,
+  "numberOfItems": 89,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -607,65 +607,6 @@
       "position": 21,
       "item": {
         "@type": "Product",
-        "name": "Dress 3407",
-        "sku": "DRESS-3407-V1",
-        "category": "Dress",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/dress-3407-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3407-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3407-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/dress-3407-v1-p4.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/dress-3407-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Dress%203407%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 22,
-      "item": {
-        "@type": "Product",
-        "name": "Pants 3183-1",
-        "sku": "PANTS-3183-V1",
-        "category": "Pants",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/pants-3183-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/pants-3183-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/pants-3183-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/pants-3183-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/pants-3183-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/pants-3183-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Pants%203183-1%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 23,
-      "item": {
-        "@type": "Product",
         "name": "Pants 3199 – 1",
         "sku": "PANTS-3199-V1",
         "category": "Pants",
@@ -694,7 +635,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 22,
       "item": {
         "@type": "Product",
         "name": "Pants 3200 – 1",
@@ -725,7 +666,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 23,
       "item": {
         "@type": "Product",
         "name": "Pants 3201 – 3",
@@ -758,7 +699,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 24,
       "item": {
         "@type": "Product",
         "name": "Pants 3205 – 1",
@@ -790,7 +731,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 25,
       "item": {
         "@type": "Product",
         "name": "Pants 3212 – 1",
@@ -821,7 +762,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 26,
       "item": {
         "@type": "Product",
         "name": "Pants 6065 – 1",
@@ -847,7 +788,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 27,
       "item": {
         "@type": "Product",
         "name": "Pants 6065 – 1",
@@ -873,67 +814,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0013",
-        "sku": "SET-0013-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0013-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0013-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0013-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0013-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0013-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0013-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200013%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 31,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0019",
-        "sku": "SET-0019-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0019-v1-p1.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0019-v1-p2.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0019-v1-p3.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0019-v1-p4.jpeg",
-          "https://paparazzifashion.shop/assets/img/products/set-0019-v1-p5.jpeg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0019-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200019%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 32,
+      "position": 28,
       "item": {
         "@type": "Product",
         "name": "Set 0034",
@@ -962,7 +843,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 29,
       "item": {
         "@type": "Product",
         "name": "Set 0103",
@@ -992,7 +873,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 30,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -1021,7 +902,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 31,
       "item": {
         "@type": "Product",
         "name": "Set 0135",
@@ -1050,7 +931,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 32,
       "item": {
         "@type": "Product",
         "name": "Set 0151",
@@ -1079,37 +960,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
-      "item": {
-        "@type": "Product",
-        "name": "Set 0153",
-        "sku": "SET-0153-V1",
-        "category": "Women’s clothing set",
-        "brand": {
-          "@type": "Brand",
-          "name": "Paparazzi Fashion"
-        },
-        "image": [
-          "https://paparazzifashion.shop/assets/img/products/set-0153-v1-p1.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0153-v1-p2.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0153-v1-p3.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0153-v1-p4.jpg",
-          "https://paparazzifashion.shop/assets/img/products/set-0153-v1-p5.jpg"
-        ],
-        "url": "https://paparazzifashion.shop/product/set-0153-v1.html",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
-          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%200153%20-%20wholesale%20order"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 38,
+      "position": 33,
       "item": {
         "@type": "Product",
         "name": "Set 0153",
@@ -1138,7 +989,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 34,
       "item": {
         "@type": "Product",
         "name": "Set 0163",
@@ -1167,7 +1018,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 35,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -1197,7 +1048,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 36,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -1227,7 +1078,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 37,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -1254,7 +1105,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 38,
       "item": {
         "@type": "Product",
         "name": "Set 0205",
@@ -1281,7 +1132,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 39,
       "item": {
         "@type": "Product",
         "name": "Set 0214",
@@ -1313,7 +1164,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 40,
       "item": {
         "@type": "Product",
         "name": "Set 0215",
@@ -1345,7 +1196,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 41,
       "item": {
         "@type": "Product",
         "name": "Set 0215",
@@ -1376,7 +1227,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 42,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -1405,7 +1256,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 43,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -1438,7 +1289,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 44,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -1468,7 +1319,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 45,
       "item": {
         "@type": "Product",
         "name": "Set 0216",
@@ -1498,7 +1349,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 46,
       "item": {
         "@type": "Product",
         "name": "Set 0217",
@@ -1524,7 +1375,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 47,
       "item": {
         "@type": "Product",
         "name": "Set 0218",
@@ -1550,7 +1401,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 48,
       "item": {
         "@type": "Product",
         "name": "Set 0219",
@@ -1581,7 +1432,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 49,
       "item": {
         "@type": "Product",
         "name": "Set 1003 Brilliant Brands",
@@ -1611,7 +1462,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 50,
       "item": {
         "@type": "Product",
         "name": "Set 1003 Brilliant Brands",
@@ -1641,7 +1492,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 51,
       "item": {
         "@type": "Product",
         "name": "Set 1017 Brilliant Brands",
@@ -1672,7 +1523,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 52,
       "item": {
         "@type": "Product",
         "name": "Set 1017 Brilliant Brands",
@@ -1702,7 +1553,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 53,
       "item": {
         "@type": "Product",
         "name": "Set 1023 Brilliant Brands",
@@ -1732,7 +1583,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 54,
       "item": {
         "@type": "Product",
         "name": "Set 1024 Brilliant Brands",
@@ -1764,7 +1615,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 60,
+      "position": 55,
       "item": {
         "@type": "Product",
         "name": "Set 1026 Brilliant Brands",
@@ -1795,7 +1646,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 61,
+      "position": 56,
       "item": {
         "@type": "Product",
         "name": "Set 1031 Brilliant Brands",
@@ -1824,7 +1675,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 62,
+      "position": 57,
       "item": {
         "@type": "Product",
         "name": "Set 1032 Brilliant Brands",
@@ -1854,7 +1705,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 63,
+      "position": 58,
       "item": {
         "@type": "Product",
         "name": "Set 3026",
@@ -1885,7 +1736,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 64,
+      "position": 59,
       "item": {
         "@type": "Product",
         "name": "Set 3029",
@@ -1916,7 +1767,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 65,
+      "position": 60,
       "item": {
         "@type": "Product",
         "name": "Set 3041",
@@ -1945,7 +1796,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 66,
+      "position": 61,
       "item": {
         "@type": "Product",
         "name": "Set 3081",
@@ -1975,7 +1826,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 67,
+      "position": 62,
       "item": {
         "@type": "Product",
         "name": "Set 3114",
@@ -2005,7 +1856,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 68,
+      "position": 63,
       "item": {
         "@type": "Product",
         "name": "Set 3125",
@@ -2035,7 +1886,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 69,
+      "position": 64,
       "item": {
         "@type": "Product",
         "name": "Set 3150",
@@ -2065,7 +1916,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 70,
+      "position": 65,
       "item": {
         "@type": "Product",
         "name": "Set 3171",
@@ -2095,7 +1946,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 71,
+      "position": 66,
       "item": {
         "@type": "Product",
         "name": "Set 3251",
@@ -2126,7 +1977,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 72,
+      "position": 67,
       "item": {
         "@type": "Product",
         "name": "Set 3269",
@@ -2155,7 +2006,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 68,
       "item": {
         "@type": "Product",
         "name": "Set 3269",
@@ -2185,7 +2036,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 74,
+      "position": 69,
       "item": {
         "@type": "Product",
         "name": "Set 3270",
@@ -2213,7 +2064,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 75,
+      "position": 70,
       "item": {
         "@type": "Product",
         "name": "Set 3273",
@@ -2243,7 +2094,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 76,
+      "position": 71,
       "item": {
         "@type": "Product",
         "name": "Set 3291",
@@ -2273,7 +2124,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 77,
+      "position": 72,
       "item": {
         "@type": "Product",
         "name": "Set 3296",
@@ -2302,7 +2153,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 78,
+      "position": 73,
       "item": {
         "@type": "Product",
         "name": "Set 3297",
@@ -2332,7 +2183,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 74,
       "item": {
         "@type": "Product",
         "name": "Set 3300",
@@ -2361,7 +2212,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 75,
       "item": {
         "@type": "Product",
         "name": "Set 3361",
@@ -2390,7 +2241,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 76,
       "item": {
         "@type": "Product",
         "name": "Set 3363",
@@ -2421,7 +2272,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 77,
       "item": {
         "@type": "Product",
         "name": "Set 3392",
@@ -2450,7 +2301,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 78,
       "item": {
         "@type": "Product",
         "name": "Set 3393",
@@ -2480,7 +2331,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 84,
+      "position": 79,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0192",
@@ -2507,7 +2358,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 80,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0193",
@@ -2534,7 +2385,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 81,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0196",
@@ -2562,7 +2413,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 82,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0197",
@@ -2590,7 +2441,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 83,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0199",
@@ -2617,7 +2468,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 84,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0200",
@@ -2644,7 +2495,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 85,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0202",
@@ -2671,7 +2522,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 86,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0203",
@@ -2699,7 +2550,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 87,
       "item": {
         "@type": "Product",
         "name": "T-shirt 1029 Brilliant Brands",
@@ -2728,7 +2579,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 88,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
@@ -2757,7 +2608,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 89,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
