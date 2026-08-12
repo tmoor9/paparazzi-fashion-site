@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://paparazzifashion.shop/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://paparazzifashion.shop/?lang=en"/>
@@ -52,6 +52,16 @@
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0220</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v1-p1.png</image:loc>
+      <image:title>Set 0221</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v1-p2.png</image:loc>
+      <image:title>Set 0221</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v2-p1.png</image:loc>
       <image:title>Set 0221</image:title>
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
@@ -63,6 +73,16 @@
     </image:image>
     <image:image>
       <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v2-p3.png</image:loc>
+      <image:title>Set 0221</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v3-p1.png</image:loc>
+      <image:title>Set 0221</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v3-p2.png</image:loc>
       <image:title>Set 0221</image:title>
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0221</image:caption>
     </image:image>
@@ -127,6 +147,21 @@
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p1.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p2.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p3.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v4-p1.png</image:loc>
       <image:title>Set 0222</image:title>
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
@@ -161,10 +196,50 @@
       <image:title>Set 0222</image:title>
       <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p1.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p2.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p3.png</image:loc>
+      <image:title>Set 0222</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — Set 0222</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0202-v1-p1.png</image:loc>
+      <image:title>T-shirt 0202</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — T-shirt 0202</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0202-v1-p2.png</image:loc>
+      <image:title>T-shirt 0202</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — T-shirt 0202</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p1.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — T-shirt 0203</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p2.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — T-shirt 0203</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p3.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
+      <image:caption>Paparazzi Fashion wholesale women clothing — T-shirt 0203</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0220-v1.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -186,7 +261,7 @@
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0220-v2.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -207,8 +282,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://paparazzifashion.shop/product/set-0221-v1.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v1-p1.png</image:loc>
+      <image:title>Set 0221</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v1-p2.png</image:loc>
+      <image:title>Set 0221</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://paparazzifashion.shop/product/set-0221-v2.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -225,8 +314,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://paparazzifashion.shop/product/set-0221-v3.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v3-p1.png</image:loc>
+      <image:title>Set 0221</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0221-v3-p2.png</image:loc>
+      <image:title>Set 0221</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://paparazzifashion.shop/product/set-0221-v4.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -248,7 +351,7 @@
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0221-v5.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -266,7 +369,7 @@
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0222-v1.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -284,7 +387,7 @@
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0222-v2.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -297,8 +400,26 @@
     </image:image>
   </url>
   <url>
+    <loc>https://paparazzifashion.shop/product/set-0222-v3.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p1.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p2.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v3-p3.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://paparazzifashion.shop/product/set-0222-v4.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -320,7 +441,7 @@
   </url>
   <url>
     <loc>https://paparazzifashion.shop/product/set-0222-v5.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -334,6 +455,56 @@
     <image:image>
       <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v5-p3.png</image:loc>
       <image:title>Set 0222</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://paparazzifashion.shop/product/set-0222-v6.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p1.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p2.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/set-0222-v6-p3.png</image:loc>
+      <image:title>Set 0222</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://paparazzifashion.shop/product/tshirt-0202-v1.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0202-v1-p1.png</image:loc>
+      <image:title>T-shirt 0202</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0202-v1-p2.png</image:loc>
+      <image:title>T-shirt 0202</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://paparazzifashion.shop/product/tshirt-0203-v1.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p1.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p2.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://paparazzifashion.shop/assets/img/products/tshirt-0203-v1-p3.png</image:loc>
+      <image:title>T-shirt 0203</image:title>
     </image:image>
   </url>
 </urlset>
