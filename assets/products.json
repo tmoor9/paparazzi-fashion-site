@@ -1,5 +1,50 @@
 [
   {
+    "code": "0158",
+    "category": "cardigan",
+    "variant": "1",
+    "photo": 1,
+    "name": "Cardigan 0158",
+    "image": "assets/img/products/cardigan-0158-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/cardigan-0158-paparazzi-fashion/"
+  },
+  {
+    "code": "0158",
+    "category": "cardigan",
+    "variant": "1",
+    "photo": 2,
+    "name": "Cardigan 0158",
+    "image": "assets/img/products/cardigan-0158-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/cardigan-0158-paparazzi-fashion/"
+  },
+  {
+    "code": "0158",
+    "category": "cardigan",
+    "variant": "1",
+    "photo": 3,
+    "name": "Cardigan 0158",
+    "image": "assets/img/products/cardigan-0158-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/cardigan-0158-paparazzi-fashion/"
+  },
+  {
+    "code": "0158",
+    "category": "cardigan",
+    "variant": "1",
+    "photo": 4,
+    "name": "Cardigan 0158",
+    "image": "assets/img/products/cardigan-0158-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/cardigan-0158-paparazzi-fashion/"
+  },
+  {
+    "code": "0158",
+    "category": "cardigan",
+    "variant": "1",
+    "photo": 5,
+    "name": "Cardigan 0158",
+    "image": "assets/img/products/cardigan-0158-v1-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/cardigan-0158-paparazzi-fashion/"
+  },
+  {
     "code": "001",
     "category": "dress",
     "variant": "1",
@@ -34,6 +79,78 @@
     "name": "Dress 001",
     "image": "assets/img/products/dress-001-v1-p4.jpeg",
     "sourceUrl": "https://paparazzifashion.com.tr/product/dress-001-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 1,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 2,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 3,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 4,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 5,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 6,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p6.jpeg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 7,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p7.jpeg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
+  },
+  {
+    "code": "0210",
+    "category": "dress",
+    "variant": "1",
+    "photo": 8,
+    "name": "Dress 0210",
+    "image": "assets/img/products/dress-0210-v1-p8.jpeg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/dress-0210-paparazzi-fashion/"
   },
   {
     "code": "2910",
