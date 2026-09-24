@@ -693,6 +693,312 @@
     "sourceUrl": "https://paparazzifashion.com.tr/product/dress-3384-paparazzi-fashion/"
   },
   {
+    "code": "7003",
+    "category": "other",
+    "variant": "1",
+    "photo": 1,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "1",
+    "photo": 2,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "1",
+    "photo": 3,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "1",
+    "photo": 4,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "1",
+    "photo": 5,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v1-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 1,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 2,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 3,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 4,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 5,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 6,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p6.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7003",
+    "category": "other",
+    "variant": "2",
+    "photo": 7,
+    "name": "Denim Set 7003",
+    "image": "assets/img/products/other-7003-v2-p7.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/denim-set-7003-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 1,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 2,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 3,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 4,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 5,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 6,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p6.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 7,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p7.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "1",
+    "photo": 8,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v1-p8.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 1,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 2,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 3,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 4,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 5,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "2",
+    "photo": 6,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v2-p6.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 1,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 2,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 3,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 4,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 5,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 6,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p6.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 7,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p7.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7010",
+    "category": "other",
+    "variant": "3",
+    "photo": 8,
+    "name": "Velvet Set 7010",
+    "image": "assets/img/products/other-7010-v3-p8.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/velvet-set-7010-paparazzi-fashion-3/"
+  },
+  {
     "code": "3199",
     "category": "pants",
     "variant": "1",
@@ -4066,6 +4372,177 @@
     "name": "Set 7007",
     "image": "assets/img/products/set-7007-v2-p6.jpg",
     "sourceUrl": "https://paparazzifashion.com.tr/product/set-7007-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7007",
+    "category": "set",
+    "variant": "3",
+    "photo": 1,
+    "name": "Set 7007",
+    "image": "assets/img/products/set-7007-v3-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7007-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7007",
+    "category": "set",
+    "variant": "3",
+    "photo": 2,
+    "name": "Set 7007",
+    "image": "assets/img/products/set-7007-v3-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7007-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7007",
+    "category": "set",
+    "variant": "3",
+    "photo": 3,
+    "name": "Set 7007",
+    "image": "assets/img/products/set-7007-v3-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7007-paparazzi-fashion-3/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "1",
+    "photo": 1,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "1",
+    "photo": 2,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "1",
+    "photo": 3,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "1",
+    "photo": 4,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "2",
+    "photo": 1,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v2-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "2",
+    "photo": 2,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v2-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "2",
+    "photo": 3,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v2-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "2",
+    "photo": 4,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v2-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion-2/"
+  },
+  {
+    "code": "7009",
+    "category": "set",
+    "variant": "3",
+    "photo": 1,
+    "name": "Set 7009",
+    "image": "assets/img/products/set-7009-v3-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-7009-paparazzi-fashion-3/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 1,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p1.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 2,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p2.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 3,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p3.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 4,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p4.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 5,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p5.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 6,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p6.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
+  },
+  {
+    "code": "8502",
+    "category": "set",
+    "variant": "1",
+    "photo": 7,
+    "name": "Set 8502",
+    "image": "assets/img/products/set-8502-v1-p7.jpg",
+    "sourceUrl": "https://paparazzifashion.com.tr/product/set-8502-paparazzi-fashion/"
   },
   {
     "code": "0192",
