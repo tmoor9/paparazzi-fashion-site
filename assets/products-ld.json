@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Paparazzi Fashion Wholesale Catalog",
-  "numberOfItems": 126,
+  "numberOfItems": 130,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -3353,6 +3353,136 @@
       "position": 114,
       "item": {
         "@type": "Product",
+        "name": "Set 7023",
+        "sku": "SET-7023-V1",
+        "category": "Women’s clothing set",
+        "brand": {
+          "@type": "Brand",
+          "name": "Paparazzi Fashion"
+        },
+        "image": [
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p1.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p2.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p3.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p4.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p5.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p6.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p7.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v1-p8.jpg"
+        ],
+        "url": "https://paparazzifashion.shop/product/set-7023-v1.html",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%207023%20-%20wholesale%20order"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 115,
+      "item": {
+        "@type": "Product",
+        "name": "Set 7023",
+        "sku": "SET-7023-V2",
+        "category": "Women’s clothing set",
+        "brand": {
+          "@type": "Brand",
+          "name": "Paparazzi Fashion"
+        },
+        "image": [
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p1.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p2.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p3.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p4.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p5.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p6.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v2-p7.jpg"
+        ],
+        "url": "https://paparazzifashion.shop/product/set-7023-v2.html",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%207023%20-%20wholesale%20order"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 116,
+      "item": {
+        "@type": "Product",
+        "name": "Set 7023",
+        "sku": "SET-7023-V3",
+        "category": "Women’s clothing set",
+        "brand": {
+          "@type": "Brand",
+          "name": "Paparazzi Fashion"
+        },
+        "image": [
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p1.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p2.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p3.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p4.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p5.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p6.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p7.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v3-p8.jpg"
+        ],
+        "url": "https://paparazzifashion.shop/product/set-7023-v3.html",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%207023%20-%20wholesale%20order"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 117,
+      "item": {
+        "@type": "Product",
+        "name": "Set 7023",
+        "sku": "SET-7023-V4",
+        "category": "Women’s clothing set",
+        "brand": {
+          "@type": "Brand",
+          "name": "Paparazzi Fashion"
+        },
+        "image": [
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p1.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p2.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p3.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p4.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p5.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p6.jpg",
+          "https://paparazzifashion.shop/assets/img/products/set-7023-v4-p7.jpg"
+        ],
+        "url": "https://paparazzifashion.shop/product/set-7023-v4.html",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+          "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+          "url": "https://wa.me/905393909958?text=Hello%2C%20I%20am%20interested%20in%20Set%207023%20-%20wholesale%20order"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 118,
+      "item": {
+        "@type": "Product",
         "name": "Set 7025",
         "sku": "SET-7025-V1",
         "category": "Women’s clothing set",
@@ -3383,7 +3513,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 119,
       "item": {
         "@type": "Product",
         "name": "Set 8502",
@@ -3415,7 +3545,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 120,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0192",
@@ -3442,7 +3572,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 121,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0193",
@@ -3469,7 +3599,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 122,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0196",
@@ -3497,7 +3627,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 123,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0197",
@@ -3525,7 +3655,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 120,
+      "position": 124,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0199",
@@ -3552,7 +3682,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 121,
+      "position": 125,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0200",
@@ -3579,7 +3709,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 122,
+      "position": 126,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0202",
@@ -3606,7 +3736,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 123,
+      "position": 127,
       "item": {
         "@type": "Product",
         "name": "T-shirt 0203",
@@ -3634,7 +3764,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 124,
+      "position": 128,
       "item": {
         "@type": "Product",
         "name": "T-shirt 1029 Brilliant Brands",
@@ -3663,7 +3793,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 125,
+      "position": 129,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
@@ -3692,7 +3822,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 126,
+      "position": 130,
       "item": {
         "@type": "Product",
         "name": "Tunic 1027 Brilliant Brands",
